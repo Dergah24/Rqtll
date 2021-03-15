@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="{{ asset('front') }}/style.css" />
     <link rel="stylesheet" href="{{ asset('front') }}/css/royal-preload.css" />
     <!-- REVOLUTION SLIDER CSS -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('front') }}/plugins/revolution/revolution/css/settings.css">   
+    <link rel="stylesheet" type="text/css" href="{{ asset('front') }}/plugins/revolution/revolution/css/settings.css">
     <!-- REVOLUTION NAVIGATION STYLE -->
     <link rel="stylesheet" type="text/css" href="{{ asset('front') }}/plugins/revolution/revolution/css/navigation.css">
 </head>
@@ -68,13 +68,13 @@
                                                 <a href="index.html">Home</a>
                                                 <ul class="sub-menu">
                                                     <li class="current-menu-item"><a href="index.html">Home 1</a></li>
-                                                    
+
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children"><a href="#">Company</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="about-us.html">About us</a></li>
-                                                    
+
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children"><a href="#">Services</a>
@@ -86,21 +86,21 @@
                                             </li>
                                             <li class="menu-item-has-children"><a href="#">Projects</a>
                                                 <ul class="sub-menu">
-                                                    
+
                                                     <li><a href="portfolio-carousel.html">Portfolio Carousel</a></li>
                                                     <li class="menu-item-has-children"><a href="portfolio-grid.html">Portfolio Grid</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="portfolio-grid.html">Portfolio 3 Columns</a></li>
-                                                            
+
                                                         </ul>
                                                     </li>
-                                                   
+
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children"><a href="blog.html">Blog</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="blog.html">Blog Listing</a></li>
-                                                    
+
                                                 </ul>
                                             </li>
                                             <li><a href="contact.html">Contacts</a></li>
@@ -110,11 +110,11 @@
                                 <div class="octf-col cta-col text-right">
                                 <!-- Call To Action -->
                                     <div class="octf-btn-cta">
-            
+
                                         <div class="octf-header-module cart-btn-hover">
                                             <div class="h-cart-btn octf-cta-icons">
                                                 <a class="cart-icon" href="cart-page.html"><i class="flaticon-shopper"></i><span class="count">0</span></a>
-                                            </div>  
+                                            </div>
                                             <div class="site-header-cart">
                                                 <div class="widget woocommerce widget_shopping_cart">
                                                     <div class="widget_shopping_cart_content">
@@ -123,7 +123,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="octf-header-module">
                                             <div class="toggle_search octf-cta-icons">
                                                 <i class="flaticon-search"></i>
@@ -136,11 +136,11 @@
                                                         <input type="search" class="search-field" placeholder="Search …" value="" name="s"></label>
                                                         <button type="submit" class="search-submit"><i class="flaticon-search"></i></button>
                                                     </form>
-                                                </div>                                  
+                                                </div>
                                             </div>
                                         </div>
-                                        
-                                    </div>                              
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -155,240 +155,240 @@
                 <!-- START REVOLUTION SLIDER 5.4.1 fullscreen mode -->
                 <div id="rev_slider_one" class="rev_slider fullscreenbanner" data-version="5.4.1">
                     <ul>
-                    
+
                         <!-- SLIDE 1 -->
                         <li data-index="rs-70" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="https://via.placeholder.com/1920x810.png"  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="1" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
                             <img src="https://images.wallpaperscraft.com/image/chip_circuit_processor_140251_1920x1200.jpg" data-bgcolor='rgba(255,255,255,0)' style='' alt=""  data-bgposition="50% 50%" data-bgfit="auto" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
-                            
+
                             <!-- LAYER 1  right image overlay dark-->
 
-                                                        
+
                             <!-- LAYER 3  Thin text title-->
-                            <div class="tp-caption tp-resizeme slider-tag-line text-light" 
-                                id="slide-70-layer-1" 
-                                data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']" 
-                                data-y="['top','top','top','top']" data-voffset="['195','105','127','133']" 
+                            <div class="tp-caption tp-resizeme slider-tag-line text-light"
+                                id="slide-70-layer-1"
+                                data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"
+                                data-y="['top','top','top','top']" data-voffset="['195','105','127','133']"
                                 data-fontsize="['24',20','0','0']"
                                 data-lineheight="['36','30','22','15']"
                                 data-whitespace="nowrap"
-                     
-                                data-type="text" 
-                                data-responsive_offset="on" 
-            
+
+                                data-type="text"
+                                data-responsive_offset="on"
+
                                 data-frames='[{"delay":0,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;opacity:0;","ease":"power3.inOut"}]'
 
-                                data-textAlign="['left','left','left','left']">// Full Cycle Software Development 
+                                data-textAlign="['left','left','left','left']">// Full Cycle Software Development
                             </div>
-                                   
+
                             <!-- LAYER 4  Bold Title-->
-                            <div class="tp-caption tp-resizeme text-light tp-big-text" 
-                                id="slide-70-layer-2" 
-                                data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']" 
+                            <div class="tp-caption tp-resizeme text-light tp-big-text"
+                                id="slide-70-layer-2"
+                                data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"
                                 data-y="['top','top','top','top']" data-voffset="['240','140','155','145']"
                                 data-fontsize="['72','60','48','30']"
                                 data-lineheight="['80','62','52','42']"
                                 data-whitespace="nowrap"
-                     
-                                data-type="text" 
-                                data-responsive_offset="on" 
-                                
+
+                                data-type="text"
+                                data-responsive_offset="on"
+
                                 data-frames='[{"delay":500,"split":"chars","splitdelay":0.1,"speed":500,"frame":"0","from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"power4.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;z:0;rX:0deg;rY:0deg;rZ:0deg;sX:1;sY:1;skX:0;skY:0;","ease":"power3.inOut"}]'
 
-                                data-textAlign="['left','left','left','left']">From idea <br> to product 
+                                data-textAlign="['left','left','left','left']">From idea <br> to product
                             </div>
-                                                                
+
                             <!-- LAYER 5  Paragraph-->
-                            <div class="tp-caption tp-resizeme text-light" 
-                                id="slide-70-layer-3" 
+                            <div class="tp-caption tp-resizeme text-light"
+                                id="slide-70-layer-3"
                                 data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"
-                                data-y="['top','top','top','top']" data-voffset="['420','279','271','235']" 
+                                data-y="['top','top','top','top']" data-voffset="['420','279','271','235']"
                                 data-fontsize="['18','18','22','16']"
                                 data-lineheight="['30','34','32','28']"
                                 data-whitespace="nowrap"
-                     
-                                data-type="text" 
-                                data-responsive_offset="on" 
-            
+
+                                data-type="text"
+                                data-responsive_offset="on"
+
                                 data-frames='[{"delay":2900,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;opacity:0;","ease":"power3.inOut"}]'
-                                
+
                                 data-textAlign="['left','left','left','left']">We are 100+ professional software engineers with more than <br> 10 years of experience in delivering superior products.
-                            </div> 
-    
+                            </div>
+
                             <!-- LAYER 6  Read More-->
-                            <div class="tp-caption rev-btn" 
-                                id="slide-70-layer-4" 
-                                data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"  
+                            <div class="tp-caption rev-btn"
+                                id="slide-70-layer-4"
+                                data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"
                                 data-y="['top','top','top','top']" data-voffset="['525','385','370','320']"
                                 data-lineheight="['18','18','16','16']"
                                 data-width="none"
                                 data-height="none"
-                                data-whitespace="nowrap"   
-                                data-responsive_offset="on" 
-            
+                                data-whitespace="nowrap"
+                                data-responsive_offset="on"
+
                                 data-frames='[{"delay":3400,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;opacity:0;","ease":"power3.inOut"}]'
-                                
+
                                 data-textAlign="['center','center','center','center']"
                                 data-paddingtop="[0,0,0,0]"
                                 data-paddingright="[0,0,0,0]"
                                 data-paddingbottom="[0,0,0,0]"
                                 data-paddingleft="[0,0,0,0]"><a href="it-services.html" class="octf-btn octf-btn-primary btn-slider btn-large">Learn More</a>
-                            </div>  
-                   
-                        </li>  
-                                     
+                            </div>
+
+                        </li>
+
 
                         <!-- SLIDE 1 -->
                         <li data-index="rs-71" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="https://via.placeholder.com/1920x810.png"  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="1" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
                             <img src="https://images.wallpaperscraft.com/image/deer_art_vector_134088_1920x1200.jpg" data-bgcolor='#ffffff' style='' alt=""  data-bgposition="50% 50%" data-bgfit="auto" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
-                              
-                                                        
+
+
                             <!-- LAYER 3  Thin text title-->
-                            <div class="tp-caption   tp-resizeme slider-tag-line text-light" 
-                                id="slide-71-layer-3" 
-                                data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']" 
-                                data-y="['top','top','top','top']" data-voffset="['195','105','127','133']" 
+                            <div class="tp-caption   tp-resizeme slider-tag-line text-light"
+                                id="slide-71-layer-3"
+                                data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"
+                                data-y="['top','top','top','top']" data-voffset="['195','105','127','133']"
                                 data-fontsize="['24',20','0','0']"
                                 data-lineheight="['36','30','22','15']"
                                 data-whitespace="nowrap"
-                     
-                                data-type="text" 
-                                data-responsive_offset="on" 
-            
+
+                                data-type="text"
+                                data-responsive_offset="on"
+
                                 data-frames='[{"delay":0,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"power3.inOut"}]'
-                                data-textAlign="['left','left','left','left']">// We Create Leading Digital Products 
+                                data-textAlign="['left','left','left','left']">// We Create Leading Digital Products
                             </div>
-                                   
+
                             <!-- LAYER 4  Bold Title-->
-                            <div class="tp-caption tp-resizeme text-light tp-big-text" 
-                                id="slide-70-layer-6" 
-                                data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']" 
+                            <div class="tp-caption tp-resizeme text-light tp-big-text"
+                                id="slide-70-layer-6"
+                                data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"
                                 data-y="['top','top','top','top']" data-voffset="['240','140','155','145']"
                                 data-fontsize="['72','60','48','30']"
                                 data-lineheight="['80','62','52','42']"
                                 data-whitespace="nowrap"
-                     
-                                data-type="text" 
-                                data-responsive_offset="on" 
-            
+
+                                data-type="text"
+                                data-responsive_offset="on"
+
                                 data-frames='[{"delay":500,"split":"chars","splitdelay":0.1,"speed":300,"frame":"0","from":"y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"power4.inOut"},{"delay":"wait","speed":1200,"frame":"999","to":"y:50px;z:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","ease":"power3.inOut"}]'
 
                                 data-textAlign="['left','left','left','left']">END-TO-END <br> development </div>
-                                                                
+
                             <!-- LAYER 5  Paragraph-->
-                            <div class="tp-caption tp-resizeme text-light" 
-                                id="slide-71-layer-7" 
+                            <div class="tp-caption tp-resizeme text-light"
+                                id="slide-71-layer-7"
                                 data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"
-                                data-y="['top','top','top','top']" data-voffset="['420','279','271','235']" 
+                                data-y="['top','top','top','top']" data-voffset="['420','279','271','235']"
                                 data-fontsize="['18','18','22','16']"
                                 data-lineheight="['30','34','32','28']"
                                 data-whitespace="nowrap"
-                     
-                                data-type="text" 
-                                data-responsive_offset="on" 
-            
+
+                                data-type="text"
+                                data-responsive_offset="on"
+
                                 data-frames='[{"delay":2900,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"power3.inOut"}]'
-                                
-                                data-textAlign="['left','left','left','left']">We are 100+ professional software engineers with more than <br>10 years of experience in delivering superior products.</div> 
-    
+
+                                data-textAlign="['left','left','left','left']">We are 100+ professional software engineers with more than <br>10 years of experience in delivering superior products.</div>
+
                             <!-- LAYER 6  Read More-->
-                            <div class="tp-caption rev-btn" 
-                                id="slide-71-layer-8" 
-                                data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"  
+                            <div class="tp-caption rev-btn"
+                                id="slide-71-layer-8"
+                                data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"
                                 data-y="['top','top','top','top']" data-voffset="['525','385','370','320']"
                                 data-width="none"
                                 data-height="none"
-                                data-whitespace="nowrap"                     
-                                data-type="button" 
-                                data-responsive_offset="on" 
-            
+                                data-whitespace="nowrap"
+                                data-type="button"
+                                data-responsive_offset="on"
+
                                 data-frames='[{"delay":3400,"speed":500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":500,"frame":"999","to":"opacity:0;","ease":"power3.inOut"}]'
-                                
+
                                 data-textAlign="['center','center','center','center']"
                                 data-paddingtop="[0,0,0,0]"
                                 data-paddingright="[0,0,0,0]"
                                 data-paddingbottom="[0,0,0,0]"
                                 data-paddingleft="[0,0,0,0]"><a href="web-development.html" class="octf-btn octf-btn-primary btn-slider btn-large">Learn More</a>
-                            </div>  
-                        </li>  
+                            </div>
+                        </li>
 
                         <!-- SLIDE 1 -->
                         <li data-index="rs-72" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="https://via.placeholder.com/1920x810.png"  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="1" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
                             <img src="https://images.wallpaperscraft.com/image/deer_art_wildlife_121850_1920x1200.jpg" data-bgcolor='#ffffff' alt=""  data-bgposition="50% 50%" data-bgfit="auto" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
-                            
-                                                        
+
+
                             <!-- LAYER 3  Thin text title-->
-                            <div class="tp-caption tp-resizeme slider-tag-line text-light" 
-                                id="slide-72-layer-3" 
-                                data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']" 
-                                data-y="['top','top','top','top']" data-voffset="['195','105','127','133']" 
+                            <div class="tp-caption tp-resizeme slider-tag-line text-light"
+                                id="slide-72-layer-3"
+                                data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"
+                                data-y="['top','top','top','top']" data-voffset="['195','105','127','133']"
                                 data-fontsize="['24',20','0','0']"
                                 data-lineheight="['36','30','22','15']"
                                 data-whitespace="nowrap"
-                     
-                                data-type="text" 
-                                data-responsive_offset="on" 
-            
+
+                                data-type="text"
+                                data-responsive_offset="on"
+
                                 data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]'
-                                data-textAlign="['left','left','left','left']">// Only High-Quality Services  
+                                data-textAlign="['left','left','left','left']">// Only High-Quality Services
                             </div>
-                                   
+
                             <!-- LAYER 4  Bold Title-->
-                            <div class="tp-caption tp-resizeme text-light tp-big-text" 
-                                id="slide-72-layer-6" 
-                                data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']" 
+                            <div class="tp-caption tp-resizeme text-light tp-big-text"
+                                id="slide-72-layer-6"
+                                data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"
                                 data-y="['top','top','top','top']" data-voffset="['240','140','155','145']"
                                 data-fontsize="['72','60','48','30']"
                                 data-lineheight="['80','62','52','42']"
                                 data-whitespace="nowrap"
-                     
-                                data-type="text" 
-                                data-responsive_offset="on" 
-            
+
+                                data-type="text"
+                                data-responsive_offset="on"
+
                                 data-frames='[{"delay":500,"split":"chars","splitdelay":0.1,"speed":300,"frame":"0","from":"y:[-100%];z:0;rZ:35deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"power4.inOut"},{"delay":"wait","speed":1200,"frame":"999","to":"y:-50px;z:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","ease":"power3.inOut"}]'
 
                                 data-textAlign="['left','left','left','left']">SOFTWARE IT <br> OUTSOURCING </div>
-                                                                
+
                             <!-- LAYER 5  Paragraph-->
-                            <div class="tp-caption tp-resizeme text-light" 
-                                id="slide-72-layer-7" 
+                            <div class="tp-caption tp-resizeme text-light"
+                                id="slide-72-layer-7"
                                 data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"
-                                data-y="['top','top','top','top']" data-voffset="['420','279','271','235']" 
+                                data-y="['top','top','top','top']" data-voffset="['420','279','271','235']"
                                 data-fontsize="['18','18','22','16']"
                                 data-lineheight="['30','34','32','28']"
                                 data-whitespace="nowrap"
-                     
-                                data-type="text" 
-                                data-responsive_offset="on" 
-            
+
+                                data-type="text"
+                                data-responsive_offset="on"
+
                                 data-frames='[{"delay":2900,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]'
-                                
-                                data-textAlign="['left','left','left','left']">We are 100+ professional software engineers with more than <br>10 years of experience in delivering superior products.</div> 
-    
+
+                                data-textAlign="['left','left','left','left']">We are 100+ professional software engineers with more than <br>10 years of experience in delivering superior products.</div>
+
                             <!-- LAYER 6  Read More-->
-                            <div class="tp-caption rev-btn" 
-                                id="slide-72-layer-8" 
-                                data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"  
+                            <div class="tp-caption rev-btn"
+                                id="slide-72-layer-8"
+                                data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"
                                 data-y="['top','top','top','top']" data-voffset="['525','385','370','320']"
                                 data-width="none"
                                 data-height="none"
-                                data-whitespace="nowrap"                     
-                                data-type="button" 
-                                data-responsive_offset="on" 
-            
+                                data-whitespace="nowrap"
+                                data-type="button"
+                                data-responsive_offset="on"
+
                                 data-frames='[{"delay":3400,"speed":700,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":700,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]'
-                                
+
                                 data-textAlign="['center','center','center','center']"
                                 data-paddingtop="[0,0,0,0]"
                                 data-paddingright="[0,0,0,0]"
                                 data-paddingbottom="[0,0,0,0]"
                                 data-paddingleft="[0,0,0,0]"><a href="mobile-development.html" class="octf-btn octf-btn-primary btn-slider btn-large">Learn More</a>
-                            </div>  
-                        </li>  
-                                                
-              
+                            </div>
+                        </li>
+
+
                     </ul>
                     <div class="tp-bannertimer"></div>
 
@@ -404,84 +404,84 @@
                                         <a href="#" class="client-logo">
                                             <figure class="partners-slide-inner">
                                                 <img class="partners-slide-image" src="http://templates.thememodern.com/engitech/images/client-logos/client2.svg" alt="">
-                                            </figure>                             
+                                            </figure>
                                         </a>
                                     </div>
                                     <div class="partners-slide">
                                         <a href="#" class="client-logo">
                                             <figure class="partners-slide-inner">
                                                 <img class="partners-slide-image" src="http://templates.thememodern.com/engitech/images/client-logos/client1.svg" alt="">
-                                            </figure>                             
+                                            </figure>
                                         </a>
                                     </div>
                                     <div class="partners-slide">
                                         <a href="#" class="client-logo">
                                             <figure class="partners-slide-inner">
                                                 <img class="partners-slide-image" src="http://templates.thememodern.com/engitech/images/client-logos/client3.svg" alt="">
-                                            </figure>                             
+                                            </figure>
                                         </a>
                                     </div>
                                     <div class="partners-slide">
                                         <a href="#" class="client-logo">
                                             <figure class="partners-slide-inner">
                                                 <img class="partners-slide-image" src="http://templates.thememodern.com/engitech/images/client-logos/client6.svg" alt="">
-                                            </figure>                             
+                                            </figure>
                                         </a>
                                     </div>
                                     <div class="partners-slide">
                                         <a href="#" class="client-logo">
                                             <figure class="partners-slide-inner">
                                                 <img class="partners-slide-image" src="http://templates.thememodern.com/engitech/images/client-logos/client5.svg" alt="">
-                                            </figure>                             
+                                            </figure>
                                         </a>
                                     </div>
                                     <div class="partners-slide">
                                         <a href="#" class="client-logo">
                                             <figure class="partners-slide-inner">
                                                 <img class="partners-slide-image" src="http://templates.thememodern.com/engitech/images/client-logos/client4.png" alt="">
-                                            </figure>                             
+                                            </figure>
                                         </a>
                                     </div>
                                     <div class="partners-slide">
                                         <a href="#" class="client-logo">
                                             <figure class="partners-slide-inner">
                                                 <img class="partners-slide-image" src="https://via.placeholder.com/300x70.png" alt="">
-                                            </figure>                             
+                                            </figure>
                                         </a>
                                     </div>
                                     <div class="partners-slide">
                                         <a href="#" class="client-logo">
                                             <figure class="partners-slide-inner">
                                                 <img class="partners-slide-image" src="https://via.placeholder.com/300x70.png" alt="">
-                                            </figure>                             
+                                            </figure>
                                         </a>
                                     </div>
                                     <div class="partners-slide">
                                         <a href="#" class="client-logo">
                                             <figure class="partners-slide-inner">
                                                 <img class="partners-slide-image" src="https://via.placeholder.com/300x70.png" alt="">
-                                            </figure>                             
+                                            </figure>
                                         </a>
                                     </div>
                                     <div class="partners-slide">
                                         <a href="#" class="client-logo">
                                             <figure class="partners-slide-inner">
                                                 <img class="partners-slide-image" src="https://via.placeholder.com/300x70.png" alt="">
-                                            </figure>                             
+                                            </figure>
                                         </a>
                                     </div>
                                     <div class="partners-slide">
                                         <a href="#" class="client-logo">
                                             <figure class="partners-slide-inner">
                                                 <img class="partners-slide-image" src="https://via.placeholder.com/300x70.png" alt="">
-                                            </figure>                             
+                                            </figure>
                                         </a>
                                     </div>
                                     <div class="partners-slide">
                                         <a href="#" class="client-logo">
                                             <figure class="partners-slide-inner">
                                                 <img class="partners-slide-image" src="https://via.placeholder.com/300x70.png" alt="">
-                                            </figure>                             
+                                            </figure>
                                         </a>
                                     </div>
                                 </div>
@@ -614,7 +614,7 @@
                                     <div>
                                         <span class="num" data-to="15" data-time="2000">0</span>
                                         <span>+</span>
-                                    </div>                    
+                                    </div>
                                 </div>
                                 <h5>Countries Worldwide</h5>
                                 <p>To succeed, every software solution must be deeply integrated into the existing tech environment..</p>
@@ -626,7 +626,7 @@
                                     <div>
                                         <span class="num" data-to="23" data-time="2000">0</span>
                                         <span>k</span>
-                                    </div>                    
+                                    </div>
                                 </div>
                                 <h5>Happy Customers</h5>
                                 <p>To succeed, every software solution must be deeply integrated into the existing tech environment..</p>
@@ -749,7 +749,7 @@
                         <div class="projects-box">
                             <div class="projects-thumbnail">
                                 <a href="portfolio-details-1.html">
-                                    <img src="https://via.placeholder.com/720x520.png" class="" alt="">                         
+                                    <img src="https://via.placeholder.com/720x520.png" class="" alt="">
                                     <span class="overlay"></span>
                                 </a>
                             </div>
@@ -760,7 +760,7 @@
                                     <p class="portfolio-cates">
                                         <a href="#">Design</a><span>/</span>
                                         <a href="#">Technology</a>
-                                    </p> 
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -769,7 +769,7 @@
                         <div class="projects-box">
                             <div class="projects-thumbnail">
                                 <a href="portfolio-details-1.html">
-                                    <img src="https://via.placeholder.com/720x520.png" class="" alt="">                         
+                                    <img src="https://via.placeholder.com/720x520.png" class="" alt="">
                                     <span class="overlay"></span>
                                 </a>
                             </div>
@@ -780,7 +780,7 @@
                                     <p class="portfolio-cates">
                                         <a href="#">Design</a><span>/</span>
                                         <a href="#">Ideas</a>
-                                    </p> 
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -789,7 +789,7 @@
                         <div class="projects-box">
                             <div class="projects-thumbnail">
                                 <a href="portfolio-details-1.html">
-                                    <img src="https://via.placeholder.com/720x520.png" class="" alt="">                         
+                                    <img src="https://via.placeholder.com/720x520.png" class="" alt="">
                                     <span class="overlay"></span>
                                 </a>
                             </div>
@@ -800,7 +800,7 @@
                                     <p class="portfolio-cates">
                                         <a href="#">Design</a><span>/</span>
                                         <a href="#">Development</a>
-                                    </p> 
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -809,7 +809,7 @@
                         <div class="projects-box">
                             <div class="projects-thumbnail">
                                 <a href="portfolio-details-1.html">
-                                    <img src="https://via.placeholder.com/720x520.png" class="" alt="">                         
+                                    <img src="https://via.placeholder.com/720x520.png" class="" alt="">
                                     <span class="overlay"></span>
                                 </a>
                             </div>
@@ -820,7 +820,7 @@
                                     <p class="portfolio-cates">
                                         <a href="#">Design</a><span>/</span>
                                         <a href="#">Ideas</a>
-                                    </p> 
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -829,7 +829,7 @@
                         <div class="projects-box">
                             <div class="projects-thumbnail">
                                 <a href="portfolio-details-1.html">
-                                    <img src="https://via.placeholder.com/720x520.png" class="" alt="">                         
+                                    <img src="https://via.placeholder.com/720x520.png" class="" alt="">
                                     <span class="overlay"></span>
                                 </a>
                             </div>
@@ -840,7 +840,7 @@
                                     <p class="portfolio-cates">
                                         <a href="#">Design</a><span>/</span>
                                         <a href="#">Development</a>
-                                    </p> 
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -898,71 +898,72 @@
                     </div>
                 </div>
             </section>
-            
-            <section> 
+
+            <section>
                 <div class="container">
                     @section('content')
-                        
+
                     @endsection
                 </div>
             </section>
         </div>
 
-    <footer id="site-footer" class="site-footer footer-v1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <div class="widget-footer">
-                        <h5 class="text-white">Services</h5>
-                        <ul class="list-items">
-                            <li class="list-item"><a href="web-development.html">Web Development</a></li>
-                            
-                        </ul>
+        <footer id="site-footer" class="site-footer footer-v2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <img src="images/logo-light.png" alt="">
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <div class="widget-footer">
-                        <h5 class="text-white">Learn</h5>
-                        <ul class="list-items">
-                            <li class="list-item"><a href="it-services.html">Social Media Platform</a></li>
-                            
-                        </ul>
+                <div class="space-60"></div>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="contact-info box-style2 ft-contact-info">
+                            <div class="box-icon"><i class="flaticon-world-globe"></i></div>
+                            <p>411 University St, Seattle, USA</p>
+                            <h6>Our Address</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="contact-info box-style2 ft-contact-info">
+                            <div class="box-icon"><i class="flaticon-envelope"></i></div>
+                            <p>contact@mail.net</p>
+                            <h6>Our Mailbox</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="contact-info box-style2 ft-contact-info">
+                            <div class="box-icon"><i class="flaticon-phone-1"></i></div>
+                            <p>+1 -800-456-478-23</p>
+                            <h6>Our Phone</h6>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <div class="widget-footer">
-                        <h5 class="text-white">Company</h5>
-                        <ul class="list-items">
-                            <li class="list-item"><a href="about-us.html">About Company</a></li>
-                            
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <div class="widget-footer">
-                        <h5 class="text-white">Subscribe</h5>
-                        <p>Follow our newsletter to stay updated  about agency.</p>
-                        <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-1343" method="post">
-                            <div class="mc4wp-form-fields">
-                                <div class="subscribe-inner-form">
-                                    <input type="email" name="email" placeholder="Your Email" required="">
-                                    <button type="submit" class="subscribe-btn-icon"><i class="flaticon-telegram"></i></button>
-                                </div>  
-                            </div>
-                        </form>
+                <div class="space-65"></div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contacts</a></li>
+                            </ul>
+                        </div>
+                        <div class="space-20"></div>
+                        <p class="copyright-text v2">Copyright © 2020 Engitech by ThemeModern. All Rights Reserved.</p>
+                        <div class="space-26"></div>
+                        <div class="ft-list-icon">
+                            <a class="twitter" href="twitter.com"><i class="fab fa-twitter"></i></a>
+                            <a class="facebook" href="facebook.com"><i class="fab fa-facebook-f"></i></a>
+                            <a class="linkedin" href="linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="instagram" href="instagram.com"><i class="fab fa-instagram"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row mt-65">
-                <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('front/images/logo-light.png') }}" alt="" class="lazyloaded" data-ll-status="loaded">
-                </div>
-                <div class="col-md-6 text-left text-md-right align-self-center">
-                    <p class="copyright-text">Copyright © 2020 Engitech by ThemeModern. All Rights Reserved.</p>
-                </div>
-            </div>
-        </div>
-    </footer><!-- #site-footer -->
+        </footer><!-- #site-footer -->
 </div><!-- #page -->
 <a id="back-to-top" href="#" class="show"><i class="flaticon-up-arrow"></i></a>
         <!-- jQuery -->
@@ -979,14 +980,14 @@
     <script  src="{{ asset('front/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js') }}"></script>
     <script  src="{{ asset('front/plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js') }}"></script>
 
-    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->    
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
     <script  src="{{ asset('front/plugins/revolution/revolution/js/extensions/revolution-plugin.js') }}"></script>
 
     <!-- REVOLUTION SLIDER SCRIPT FILES -->
     <script  src="{{ asset('front/js/rev-script-2.js') }}"></script>
     <script src="{{ asset('front/js/royal_preloader.min.js') }}"></script>
     <script>
-        window.jQuery = window.$ = jQuery;  
+        window.jQuery = window.$ = jQuery;
         (function($) { "use strict";
             //Preloader
             Royal_Preloader.config({
@@ -999,6 +1000,6 @@
                 background:  '#ffffff'
             });
         })(jQuery);
-    </script> 
+    </script>
 </body>
 </html>
