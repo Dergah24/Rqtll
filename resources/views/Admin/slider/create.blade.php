@@ -1,25 +1,9 @@
-<x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Slider Create') }}
-        </h2>
-    </x-slot>
 
     <div class="py-12">
-        @include('sweetalert::alert')
+
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            @if ($message = Session::get('success'))
-                <div class="alert alert-success">{{ $message }}</div>
-            @endif
-            @if ($errors->any())
-                <div class="alert alert-danger">
-                    <ul>
-                        @foreach ($errors->all() as $error)
-                            <li>{{ $error }}</li>
-                        @endforeach
-                    </ul>
-                </div>
-           @endif
+
+
             <form method="post" action="{{ route('slider.store') }}" enctype="multipart/form-data">
                 @csrf
                 <div class="row">
@@ -107,4 +91,3 @@
             </form>
         </div>
     </div>
-</x-app-layout>

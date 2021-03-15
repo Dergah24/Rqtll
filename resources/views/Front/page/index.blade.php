@@ -253,96 +253,24 @@
                 <div class="col-md-12">
                     <div class="partners">
                         <div class="owl-carousel owl-theme home-client-carousel">
+                            @foreach ($partners as $partner )
                             <div class="partners-slide">
                                 <a href="#" class="client-logo">
                                     <figure class="partners-slide-inner">
-                                        <img class="partners-slide-image" src="https://via.placeholder.com/300x70.png" alt="">
+                                        <img class="partners-slide-image" src="{{ asset('image')."/".$partner->image }}" alt="{{ $partner->image }}">
                                     </figure>
                                 </a>
                             </div>
-                            <div class="partners-slide">
-                                <a href="#" class="client-logo">
-                                    <figure class="partners-slide-inner">
-                                        <img class="partners-slide-image" src="https://via.placeholder.com/300x70.png" alt="">
-                                    </figure>
-                                </a>
-                            </div>
-                            <div class="partners-slide">
-                                <a href="#" class="client-logo">
-                                    <figure class="partners-slide-inner">
-                                        <img class="partners-slide-image" src="https://via.placeholder.com/300x70.png" alt="">
-                                    </figure>
-                                </a>
-                            </div>
-                            <div class="partners-slide">
-                                <a href="#" class="client-logo">
-                                    <figure class="partners-slide-inner">
-                                        <img class="partners-slide-image" src="https://via.placeholder.com/300x70.png" alt="">
-                                    </figure>
-                                </a>
-                            </div>
-                            <div class="partners-slide">
-                                <a href="#" class="client-logo">
-                                    <figure class="partners-slide-inner">
-                                        <img class="partners-slide-image" src="https://via.placeholder.com/300x70.png" alt="">
-                                    </figure>
-                                </a>
-                            </div>
-                            <div class="partners-slide">
-                                <a href="#" class="client-logo">
-                                    <figure class="partners-slide-inner">
-                                        <img class="partners-slide-image" src="https://via.placeholder.com/300x70.png" alt="">
-                                    </figure>
-                                </a>
-                            </div>
-                            <div class="partners-slide">
-                                <a href="#" class="client-logo">
-                                    <figure class="partners-slide-inner">
-                                        <img class="partners-slide-image" src="https://via.placeholder.com/300x70.png" alt="">
-                                    </figure>
-                                </a>
-                            </div>
-                            <div class="partners-slide">
-                                <a href="#" class="client-logo">
-                                    <figure class="partners-slide-inner">
-                                        <img class="partners-slide-image" src="https://via.placeholder.com/300x70.png" alt="">
-                                    </figure>
-                                </a>
-                            </div>
-                            <div class="partners-slide">
-                                <a href="#" class="client-logo">
-                                    <figure class="partners-slide-inner">
-                                        <img class="partners-slide-image" src="https://via.placeholder.com/300x70.png" alt="">
-                                    </figure>
-                                </a>
-                            </div>
-                            <div class="partners-slide">
-                                <a href="#" class="client-logo">
-                                    <figure class="partners-slide-inner">
-                                        <img class="partners-slide-image" src="https://via.placeholder.com/300x70.png" alt="">
-                                    </figure>
-                                </a>
-                            </div>
-                            <div class="partners-slide">
-                                <a href="#" class="client-logo">
-                                    <figure class="partners-slide-inner">
-                                        <img class="partners-slide-image" src="https://via.placeholder.com/300x70.png" alt="">
-                                    </figure>
-                                </a>
-                            </div>
-                            <div class="partners-slide">
-                                <a href="#" class="client-logo">
-                                    <figure class="partners-slide-inner">
-                                        <img class="partners-slide-image" src="https://via.placeholder.com/300x70.png" alt="">
-                                    </figure>
-                                </a>
-                            </div>
+                            @endforeach
+
+
+
+
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </div>    </div>
 
     <section class="over-hidden">
         <div class="container">
@@ -598,71 +526,14 @@
     </section>
     <section class="no-padding-top">
         <div class="owl-carousel owl-theme project-slider">
+
+
+
             <div class="project-item projects-style-2">
                 <div class="projects-box">
                     <div class="projects-thumbnail">
                         <a href="portfolio-details-1.html">
-                            <img src="https://via.placeholder.com/720x520.png" class="" alt="">
-                            <span class="overlay"></span>
-                        </a>
-                    </div>
-                    <div class="portfolio-info ">
-                        <div class="portfolio-info-inner">
-                            <a class="btn-link" href="htportfolio-details-1.html"><i class="flaticon-right-arrow-1"></i></a>
-                            <h5><a href="portfolio-details-1.html">Social Media App</a></h5>
-                            <p class="portfolio-cates">
-                                <a href="#">Design</a><span>/</span>
-                                <a href="#">Technology</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="project-item projects-style-2">
-                <div class="projects-box">
-                    <div class="projects-thumbnail">
-                        <a href="portfolio-details-1.html">
-                            <img src="https://via.placeholder.com/720x520.png" class="" alt="">
-                            <span class="overlay"></span>
-                        </a>
-                    </div>
-                    <div class="portfolio-info ">
-                        <div class="portfolio-info-inner">
-                            <a class="btn-link" href="htportfolio-details-1.html"><i class="flaticon-right-arrow-1"></i></a>
-                            <h5><a href="portfolio-details-1.html">App for Virtual Reality</a></h5>
-                            <p class="portfolio-cates">
-                                <a href="#">Design</a><span>/</span>
-                                <a href="#">Ideas</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="project-item projects-style-2">
-                <div class="projects-box">
-                    <div class="projects-thumbnail">
-                        <a href="portfolio-details-1.html">
-                            <img src="https://via.placeholder.com/720x520.png" class="" alt="">
-                            <span class="overlay"></span>
-                        </a>
-                    </div>
-                    <div class="portfolio-info ">
-                        <div class="portfolio-info-inner">
-                            <a class="btn-link" href="htportfolio-details-1.html"><i class="flaticon-right-arrow-1"></i></a>
-                            <h5><a href="portfolio-details-1.html">Basics Project</a></h5>
-                            <p class="portfolio-cates">
-                                <a href="#">Design</a><span>/</span>
-                                <a href="#">Development</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="project-item projects-style-2">
-                <div class="projects-box">
-                    <div class="projects-thumbnail">
-                        <a href="portfolio-details-1.html">
-                            <img src="https://via.placeholder.com/720x520.png" class="" alt="">
+                            <img src="https://images.unsplash.com/photo-1563311492-d1fbef25fb44?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=532&q=80" class="" alt="">
                             <span class="overlay"></span>
                         </a>
                     </div>

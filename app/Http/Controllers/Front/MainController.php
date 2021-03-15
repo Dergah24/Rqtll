@@ -3,7 +3,11 @@
 namespace App\Http\Controllers\Front;
 
 use App\Http\Controllers\Controller;
+use App\Models\Contact;
+use App\Models\Partner;
+use App\Models\Slider;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 
 class MainController extends Controller
 {
@@ -14,7 +18,22 @@ class MainController extends Controller
      */
     public function index()
     {
-        return view('front.page.index');
+
+        $lng= App::getLocale();
+        if($lng == 'az') {
+            $sliders= Slider::where('title')
+        }
+
+        if($lng=='ru'){
+
+        }
+
+        if($lng=='az'){
+
+        }
+        $partners = Partner::all();
+        $contact =Contact::whereId(1)->first();
+        return view('front.page.index',compact('contact','partners'));
     }
 
     /**

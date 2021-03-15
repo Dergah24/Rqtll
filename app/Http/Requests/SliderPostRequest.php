@@ -47,8 +47,8 @@ class SliderPostRequest extends FormRequest
                 'title_en'=>'Title En',
                 'title_ru'=>'Title Ru',
                 'desc_az'=>'Description Az',
-                'desc_en'=>'Description Ru',
-                'desc_ru'=>'Description En',
+                'desc_en'=>'Description En',
+                'desc_ru'=>'Description Ru',
                 'link_'=>'Link',
 
 
