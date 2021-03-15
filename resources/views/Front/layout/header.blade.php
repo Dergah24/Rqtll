@@ -56,7 +56,7 @@
                                 <div class="octf-col logo-col">
                                     <div id="site-logo" class="site-logo">
                                         <a href="index.html">
-                                            <img src="images/logo.svg" alt="Engitech" class="">
+                                            <img src="{{ asset('front') }}/images/logo.svg" alt="Engitech" class="">
                                         </a>
                                     </div>
                                 </div>
@@ -64,7 +64,7 @@
                                     <nav id="site-navigation" class="main-navigation">
                                         <ul class="menu">
                                             <li class="menu-item-has-children current-menu-item current-menu-ancestor">
-                                                <a href="index.html">Home</a>
+                                                <a href="index.html">Əsas Səhifə</a>
                                                 <ul class="sub-menu">
                                                     <li class="current-menu-item"><a href="index.html">Home 1</a></li>
                                                     <li><a href="index-2.html">Home 2</a></li>
@@ -73,7 +73,7 @@
                                                     <li><a href="index-5.html">Home 5</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="menu-item-has-children"><a href="#">Company</a>
+                                            <li class="menu-item-has-children"><a href="#">Haqqımızda</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="about-us.html">About us</a></li>
                                                     <li><a href="why-choose-us.html">Why Choose Us</a></li>
@@ -100,7 +100,7 @@
                                                     <li><a href="mobile-development.html">Mobile Development</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="menu-item-has-children"><a href="#">Projects</a>
+                                            <li class="menu-item-has-children"><a href="#">Xidmətlər</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="portfolio-masonry.html">Portfolio Masonry</a></li>
                                                     <li><a href="portfolio-carousel.html">Portfolio Carousel</a></li>
@@ -120,14 +120,21 @@
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li class="menu-item-has-children"><a href="blog.html">Blog</a>
+                                            <li class="menu-item-has-children"><a href="blog.html">Layihələr</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="blog.html">Blog Listing</a></li>
                                                     <li><a href="blog-grid.html">Blog Grid</a></li>
                                                     <li><a href="post.html">Blog Single</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.html">Contacts</a></li>
+                                            <li class="menu-item-has-children"><a href="blog.html">Qalereya</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="blog.html">Blog Listing</a></li>
+                                                    <li><a href="blog-grid.html">Blog Grid</a></li>
+                                                    <li><a href="post.html">Blog Single</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">Əlaqə</a></li>
                                         </ul>
                                     </nav>
                                 </div>
