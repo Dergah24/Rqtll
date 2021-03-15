@@ -21,19 +21,19 @@ class MainController extends Controller
 
         $lng= App::getLocale();
         if($lng == 'az') {
-            $sliders= Slider::where('title')
+            $sliders= Slider::select('title_az','desc_az','image')->get();
         }
 
         if($lng=='ru'){
-
+             $sliders= Slider::select('title_ru','desc_ru','image')->get();
         }
 
-        if($lng=='az'){
-
+        if($lng=='en'){
+             $sliders= Slider::select('title_en','desc_en','image')->get();
         }
         $partners = Partner::all();
         $contact =Contact::whereId(1)->first();
-        return view('front.page.index',compact('contact','partners'));
+        return view('front.page.index',compact('contact','partners','sliders'));
     }
 
     /**

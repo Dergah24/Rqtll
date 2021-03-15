@@ -278,7 +278,7 @@
                 <div class="col-lg-5 col-md-12 align-self-center">
                     <div class="ot-heading">
                         <span>// about company</span>
-                        <h2 class="main-heading">Your Partner for <br> Software Innovation</h2>
+                        <h2 class="main-heading">haqimizda</h2>
                     </div>
                     <p class="mb-15">Engitech is the partner of choice for many of the world’s leading enterprises, SMEs and technology challengers. We help businesses elevate their value through custom software development, product design, QA and consultancy services.</p>
                     <div class="row">
@@ -333,7 +333,7 @@
                 <div class="col-md-12 text-center">
                     <div class="ot-heading">
                         <span class="text-primary-light">// why choose us</span>
-                        <h2 class="main-heading text-white">Design the Concept <br> of Your Business Idea Now</h2>
+                        <h2 class="main-heading text-white">Xidemetler<br> slideri</h2>
                     </div>
                     <div class="space-20"></div>
                 </div>
@@ -419,7 +419,7 @@
                 <div class="col-md-8 col-sm-8 mb-4 mb-sm-0">
                     <div class="ot-heading mb-0">
                         <span>// our service</span>
-                        <h2 class="main-heading">We Offer a Wide <br>Variety of IT Services</h2>
+                        <h2 class="main-heading">Ustunlukler <br>statick</h2>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4 text-sm-right align-self-end">
@@ -496,8 +496,8 @@
                         <div class="row">
                             <div class="col-md-9 text-md-left text-center mb-4 mb-md-0">
                                 <div class="ot-heading">
-                                    <span>// We Carry more Than Just Good Coding Skills</span>
-                                    <h2 class="main-heading">Let's Build Your Website!</h2>
+                                    <span>// Elaqe</span>
+                                    <h2 class="main-heading">Elaqe</h2>
                                 </div>
                             </div>
                             <div class="col-md-3 text-md-right text-center align-self-end">
@@ -514,7 +514,7 @@
                 <div class="col-md-5">
                     <div class="ot-heading">
                         <span>// latest case studies</span>
-                        <h2 class="main-heading">Introduce Our Projects</h2>
+                        <h2 class="main-heading">Mehsullar</h2>
                     </div>
                 </div>
                 <div class="col-md-7">
@@ -577,7 +577,7 @@
                 <div class="col-md-12">
                     <div class="ot-heading text-center text-white">
                         <span>// TECHNOLOGY INDEX</span>
-                        <h2 class="main-heading">We Deliver Solution with <br>the Goal of Trusting Relationships</h2>
+                        <h2 class="main-heading">Galery <br>the Goal of Trusting Relationships</h2>
                     </div>
                 </div>
             </div>
@@ -629,7 +629,7 @@
                 <div class="col-md-12">
                     <div class="ot-heading text-center">
                         <span>// our clients</span>
-                        <h2 class="main-heading">We are Trusted <br>15+ Countries Worldwide</h2>
+                        <h2 class="main-heading">Partnyorlar <br>15+ Countries Worldwide</h2>
                     </div>
                 </div>
             </div>
