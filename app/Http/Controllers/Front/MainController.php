@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Front;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Controller;
 use App\Models\Contact;
+use App\Models\Galery;
 use App\Models\Partner;
 use App\Models\Product;
 use App\Models\Slider;
@@ -37,9 +38,10 @@ class MainController extends Controller
              $sliders= Slider::select('title_en','desc_en','image')->get();
              $products = Product::select('title_az as title','image')->get();
         }
+        $galeriImages = Galery::all();
         $partners = Partner::all();
         $contact =Contact::whereId(1)->first();
-        return view('front.page.index',compact('contact','partners','sliders','products','lng'));
+        return view('front.page.index',compact('contact','partners','sliders','products','galeriImages'));
     }
 
     /**

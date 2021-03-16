@@ -25,7 +25,7 @@ class GaleryUpdateReques extends FormRequest
     {
         return [
 
-               'image' => "mimes:png"
+               'image' => "mimes:jpg,jpeg"
             ];
     }
 

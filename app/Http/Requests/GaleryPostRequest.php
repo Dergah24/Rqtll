@@ -25,7 +25,7 @@ class GaleryPostRequest extends FormRequest
     {
         return [
 
-               'image' => "required|mimes:png"
+               'image' => "required|mimes:jpg,jpeg"
             ];
     }
 

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <title>Engitech</title>
-    <link rel="shortcut icon" type="{{ asset('Front') }}/image/x-icon" href="images/favicon.png" />
+    <link rel="shortcut icon" type="{{ asset('Front') }}/image/x-icon" href="{{ asset('Front') }}/images/favicon.png" />
     <link rel="stylesheet" href="{{ asset('Front') }}/css/bootstrap.min.css" />
     <link rel="stylesheet" href="{{ asset('Front') }}/css/font-awesome.min.css" />
     <link rel="stylesheet" href="{{ asset('Front') }}/css/flaticon.css" />
