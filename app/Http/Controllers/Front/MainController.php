@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers\Front;
 
+use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Controller;
 use App\Models\Contact;
 use App\Models\Partner;
+use App\Models\Product;
 use App\Models\Slider;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
@@ -18,22 +20,26 @@ class MainController extends Controller
      */
     public function index()
     {
-
+        App::setLocale('az');
         $lng= App::getLocale();
         if($lng == 'az') {
             $sliders= Slider::select('title_az','desc_az','image')->get();
+            $products = Product::select('title_az as title','image')->get();
+
         }
 
         if($lng=='ru'){
-             $sliders= Slider::select('title_ru','desc_ru','image')->get();
+             $sliders= Slider::select('title_ru ','desc_ru','image')->get();
+             $products = Product::select('title_az as title','image')->get();
         }
 
         if($lng=='en'){
              $sliders= Slider::select('title_en','desc_en','image')->get();
+             $products = Product::select('title_az as title','image')->get();
         }
         $partners = Partner::all();
         $contact =Contact::whereId(1)->first();
-        return view('front.page.index',compact('contact','partners','sliders'));
+        return view('front.page.index',compact('contact','partners','sliders','products','lng'));
     }
 
     /**

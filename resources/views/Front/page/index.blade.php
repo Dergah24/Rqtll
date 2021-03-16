@@ -528,39 +528,21 @@
         <div class="owl-carousel owl-theme project-slider">
 
 
+            @foreach ($products as $product)
+
+
 
             <div class="project-item projects-style-2">
                 <div class="projects-box">
                     <div class="projects-thumbnail">
                         <a href="portfolio-details-1.html">
-                            <img src="https://images.unsplash.com/photo-1563311492-d1fbef25fb44?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=532&q=80" class="" alt="">
+                            <img src="{{ $product->image }}" class="" alt="">
                             <span class="overlay"></span>
                         </a>
                     </div>
                     <div class="portfolio-info ">
                         <div class="portfolio-info-inner">
-                            <a class="btn-link" href="htportfolio-details-1.html"><i class="flaticon-right-arrow-1"></i></a>
-                            <h5><a href="portfolio-details-1.html">eCommerce Website</a></h5>
-                            <p class="portfolio-cates">
-                                <a href="#">Design</a><span>/</span>
-                                <a href="#">Ideas</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="project-item projects-style-2">
-                <div class="projects-box">
-                    <div class="projects-thumbnail">
-                        <a href="portfolio-details-1.html">
-                            <img src="https://via.placeholder.com/720x520.png" class="" alt="">
-                            <span class="overlay"></span>
-                        </a>
-                    </div>
-                    <div class="portfolio-info ">
-                        <div class="portfolio-info-inner">
-                            <a class="btn-link" href="htportfolio-details-1.html"><i class="flaticon-right-arrow-1"></i></a>
-                            <h5><a href="portfolio-details-1.html">Basics Project</a></h5>
+                            <h5><a href="portfolio-details-1.html">{{  $product->title }}</a></h5>
                             <p class="portfolio-cates">
                                 <a href="#">Design</a><span>/</span>
                                 <a href="#">Development</a>
@@ -569,8 +551,20 @@
                     </div>
                 </div>
             </div>
+            @endforeach
+
         </div>
+        <div class="row">
+            <div class="col-md-10"></div>
+            <div class="col-md-2 ">
+                <a class="" href="http://"> <b>Hamsina bax</b> <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+
     </section>
+
+
     <section class="technology-v1">
         <div class="container">
             <div class="row">
