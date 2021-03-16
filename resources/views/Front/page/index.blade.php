@@ -567,7 +567,30 @@
 
     <section class="technology-v1">
         <div class="container">
-            <div class="row">
+
+            <div class="owl-carousel owl-theme project-slider">
+
+
+                @foreach ($products as $product)
+
+
+
+                <div class="project-item projects-style-5">
+                    <div class="projects-box">
+                        <div class="projects-thumbnail">
+                            <a href="portfolio-details-1.html">
+                                <img src="{{ $product->image }}" class="projects-style-5" alt="">
+                                <span class="overlay"></span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                @endforeach
+
+            </div>
+
+         <!--   <div class="row">
                 <div class="col-md-12">
                     <div class="ot-heading text-center text-white">
                         <span>// TECHNOLOGY INDEX</span>
@@ -578,42 +601,13 @@
             <div class="space-15"></div>
             <div class="row">
                 <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                    <a class="tech-box text-center" href="web-development.html" target="_blank">
-                        <div class="icon-main"><span class="flaticon-code-1"></span></div>
-                        <h5>WEB</h5>
-                    </a>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                    <a class="tech-box text-center" href="mobile-development.html">
-                        <div class="icon-main"><span class="flaticon-android"></span></div>
-                        <h5>Android</h5>
-                    </a>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                    <a class="tech-box text-center" href="mobile-development.html">
-                        <div class="icon-main"><span class="flaticon-apple"></span></div>
-                        <h5>IOS</h5>
-                    </a>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                    <a class="tech-box text-center" href="it-services.html">
-                        <div class="icon-main"><span class="flaticon-iot"></span></div>
-                        <h5>IOT</h5>
-                    </a>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                    <a class="tech-box text-center" href="it-services.html">
-                        <div class="icon-main"><span class="flaticon-time-and-date"></span></div>
-                        <h5>Wearalables</h5>
-                    </a>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
                     <a class="tech-box text-center" href="it-services.html">
                         <div class="icon-main"><span class="flaticon-tv"></span></div>
                         <h5>TV</h5>
                     </a>
                 </div>
-            </div>
+            </div> -->
+
         </div>
     </section>
 

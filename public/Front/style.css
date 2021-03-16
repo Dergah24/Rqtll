@@ -6074,7 +6074,7 @@ div.tp-bullet.selected, div.tp-bullet:hover {
 }
 .cta {
     padding: 55px 65px 200px 65px;
-    background-image: url(https://via.placeholder.com/1170x350.png);
+    background-image: url(https://images.unsplash.com/photo-1596524430615-b46475ddff6e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -7384,7 +7384,7 @@ svg:not(:root) {
     margin-bottom: 50px;
 }
 .text-decoration-line {
-    text-decoration-line: underline; 
+    text-decoration-line: underline;
 }
 .simple-slider {
     margin-bottom: 40px;
@@ -7540,10 +7540,10 @@ section {
 .mb-30 {
     margin-bottom: 30px;
 }
-.mt--130 { 
+.mt--130 {
     margin-top: -130px;
 }
-.mt--290 { 
+.mt--290 {
     margin-top: -290px;
 }
 .mb--200 {
@@ -8095,8 +8095,8 @@ section {
 
 /**Revolution Slider**/
 .tp-big-text{
-  text-transform: uppercase; 
-  font-weight: 900; 
+  text-transform: uppercase;
+  font-weight: 900;
   font-family: Montserrat;
 }
 .tp-bannertimer{

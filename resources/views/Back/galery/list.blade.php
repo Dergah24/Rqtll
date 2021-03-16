@@ -33,7 +33,7 @@ Galery
                                 <img class="card-img-top center  " width="80px" height="80px" src="{{ asset('image/'.$date->image) }}"
                                 style="width:80px" alt="{{ $date->title }}">
                                 <div class="row">
-                                   
+
                                        <div class="col-6">
                                         <a class="btn btn-sm btn-success " data-target="#edit{{ $date->id }}" class="btn btn-success "
                                             data-toggle="modal" data-target="#edit{{ $date->id }}">
@@ -48,7 +48,7 @@ Galery
                                                     aria-hidden="true"></i></button>
                                         </form>
                                        </div>
-                                   
+
                                 </div>
                             </div>
                         </div>
@@ -66,12 +66,12 @@ Galery
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <form action="{{ route('partner.update',$date->id) }}" method="Post"
+                                    <form action="{{ route('galery.update',$date->id) }}" method="Post"
                                         enctype="multipart/form-data">
                                         @csrf
                                         @method('Put')
                                         <div class="mb-3">
-                                            <label for="title" class="form-label">Partner Name</label>
+                                            <label for="title" class="form-label">GAlery Image  Name</label>
                                             <input type="text" class="form-control" value="{{ $date->title }}" name="title">
                                         </div>
                                         <div class="row">
@@ -80,7 +80,7 @@ Galery
                                                 <img src="{{ asset('image/'.$date->image)}}" style="width: 50px">
                                             </div>
                                             <div class="mb-3 col">
-                                                <label for="image" class="form-label">Partner logo</label>
+                                                <label for="image" class="form-label">Galery Image</label>
                                                 <input type="file" class="form-control" id="image" name="image">
                                             </div>
                                         </div>
@@ -107,7 +107,7 @@ Galery
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Partner Insert</h5>
+                <h5 class="modal-title" id="exampleModalLongTitle">Galery Image Insert</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 
                     <span aria-hidden="true">&times;</span>
@@ -117,11 +117,11 @@ Galery
                 <form action="{{ route('galery.store') }}" method="Post" enctype="multipart/form-data">
                     @csrf
                     <div class="mb-3">
-                        <label for="title" class="form-label">Partner Name</label>
+                        <label for="title" class="form-label">Galery Image Name</label>
                         <input type="text" class="form-control" name="title">
                     </div>
                     <div class="mb-3">
-                        <label for="image" class="form-label">Partner Logo</label>
+                        <label for="image" class="form-label">Galery Image</label>
                         <input type="file" class="form-control" name="image">
                     </div>
             </div>

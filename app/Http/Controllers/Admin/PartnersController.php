@@ -76,7 +76,7 @@ class PartnersController extends Controller
     public function edit($id)
     {
        // return $id;
-        $partnerEdit = Partners::find($id)->first();
+        $partnerEdit = Partners::whereId($id)->get();
        // return response('partnerEdit',$partnerEdit);
     }
 
@@ -121,7 +121,7 @@ class PartnersController extends Controller
             //File::delete($image_path);
             File::delete( $image_path);
         }
-       
+
         $partner->delete();
 
         return redirect()->back();

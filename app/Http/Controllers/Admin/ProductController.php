@@ -42,9 +42,9 @@ class ProductController extends Controller
      */
     public function store(ProductPostRequest $request)
     {
-       
+
          $product = new Product();
-      
+
 
         if($request->hasFile('image')){
             $fileName = $request->title_az.time().'.'.$request->image->extension();
@@ -53,7 +53,7 @@ class ProductController extends Controller
             $request->image->move(public_path('uploads'), $fileName);
        }
 
-       
+
        $product->title_az = $request->title_az;
        $product->title_en = $request->title_en;
        $product->title_ru = $request->title_ru;
@@ -63,10 +63,10 @@ class ProductController extends Controller
        $product->slug_ru =Str::slug($request->title_ru, '-');
 
 
-      
+
        $product->save();
 
-       return redirect()->back()->with('success',"Mehsul Elave edildi");
+       return redirect()->route('product.index')->with('success',"Mehsul Elave edildi");
 
     }
 
@@ -89,7 +89,7 @@ class ProductController extends Controller
      */
     public function edit($id)
     {
-        $product = Product::find($id)->first();
+           $product = Product::whereId($id)->first();
         return view('Back.product.update',compact('product'));
     }
 
@@ -102,7 +102,7 @@ class ProductController extends Controller
      */
     public function update(ProductUpdateRequest $request, $id)
     {
-        $product =  Product::find($id)->first();
+        $product =  Product::whereId($id)->first();
 
         $product->title_az = $request->title_az;
         $product->title_en = $request->title_en;
