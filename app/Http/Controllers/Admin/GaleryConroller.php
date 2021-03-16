@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Storage;
 use App\Http\Requests\GaleryPostRequest;
+use App\Http\Requests\GaleryUpdateReques;
 
 class GaleryConroller extends Controller
 {
@@ -43,6 +44,7 @@ class GaleryConroller extends Controller
 
         $date = new Galery();
         if ($request->file()){
+
           if($request->title){
             $name = $request->title.'.'.$request->image->extension();
           }else{
@@ -50,11 +52,8 @@ class GaleryConroller extends Controller
           }
 
            $request->image->move(public_path('image'),$name);
-
            $date->image=$name;
-
            $date->title =$request->title;
-
            $date->save();
         }
        return redirect()->back()->with('saccess','Yeni sekil elave edildi elave edildi');
@@ -89,13 +88,14 @@ class GaleryConroller extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(GaleryPostRequest $request, $id)
+    public function update(GaleryUpdateReques $request, $id)
     {
 
         $date =  Galery::where('id',$id)->first();
 
         $date->title=$request->title;
         if ($request->file()){
+
           if($request->title){
             $name = $request->title.'.'.$request->image->extension();
           }else{
@@ -103,7 +103,6 @@ class GaleryConroller extends Controller
           }
 
            $request->image->move(public_path('image'),$name);
-
            $date->image=$name;
         }
         $date->save();
@@ -127,7 +126,7 @@ class GaleryConroller extends Controller
             //File::delete($image_path);
             File::delete( $image_path);
         }
-       
+
         $galery->delete();
 
         return redirect()->back();
