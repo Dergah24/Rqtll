@@ -20,6 +20,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('Front') }}/plugins/revolution/revolution/css/settings.css">
     <!-- REVOLUTION NAVIGATION STYLE -->
     <link rel="stylesheet" type="text/css" href="{{ asset('Front') }}/plugins/revolution/revolution/css/navigation.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body class="royal_preloader">

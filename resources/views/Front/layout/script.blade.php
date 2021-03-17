@@ -19,6 +19,8 @@
     <!-- REVOLUTION SLIDER SCRIPT FILES -->
     <script  src="{{ asset('Front') }}/js/rev-script-2.js"></script>
     <script src="{{ asset('Front') }}/js/royal_preloader.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
         window.jQuery = window.$ = jQuery;
         (function($) { "use strict";

@@ -2,107 +2,26 @@
 
 @section('content')
 <div id="content" class="site-content">
-    <div id="rev_slider_one_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="mask-showcase"
-        data-source="gallery">
-        <!-- START REVOLUTION SLIDER 5.4.1 fullscreen mode -->
-        <div id="rev_slider_one" class="rev_slider fullscreenbanner" data-version="5.4.1">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            @foreach ($sliders as $slider)
 
 
+          <div class="swiper-slide" style="background-image: url('{{ asset($slider->image) }}')">
+            <div class="container swiper-text">
+                <h1 class="title">test</h1>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recuni rerum sequi officia quas, architecto consectetur?</p>
+            </div>
+          </div>
 
-            <ul>
-                @foreach ($sliders as $slider)
-
-
-                <!-- SLIDE 1 -->
-                <li data-index="rs-70" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="https://via.placeholder.com/1920x810.png"  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="1" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                    <!-- MAIN IMAGE -->
-                    <img src="{{ asset($slider->image) }}" data-bgcolor='rgba(255,255,255,0)'  alt=""  data-bgposition="50% 50%" data-bgfit="auto" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
-
-                    <!-- LAYER 1  right image overlay dark-->
-
-
-                    <!-- LAYER 3  Thin text title-->
-                    <div class="tp-caption tp-resizeme slider-tag-line text-light"
-                        id="slide-70-layer-1"
-                        data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"
-                        data-y="['top','top','top','top']" data-voffset="['195','105','127','133']"
-                        data-fontsize="['24',20','0','0']"
-                        data-lineheight="['36','30','22','15']"
-                        data-whitespace="nowrap"
-
-                        data-type="text"
-                        data-responsive_offset="on"
-
-                        data-frames='[{"delay":0,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;opacity:0;","ease":"power3.inOut"}]'
-
-                        data-textAlign="['left','left','left','left']">// Full Cycle Software Development
-                    </div>
-
-                    <!-- LAYER 4  Bold Title-->
-                    <div class="tp-caption tp-resizeme text-light tp-big-text"
-                        id="slide-70-layer-2"
-                        data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"
-                        data-y="['top','top','top','top']" data-voffset="['240','140','155','145']"
-                        data-fontsize="['72','60','48','30']"
-                        data-lineheight="['80','62','52','42']"
-                        data-whitespace="nowrap"
-
-                        data-type="text"
-                        data-responsive_offset="on"
-
-                        data-frames='[{"delay":500,"split":"chars","splitdelay":0.1,"speed":500,"frame":"0","from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"power4.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;z:0;rX:0deg;rY:0deg;rZ:0deg;sX:1;sY:1;skX:0;skY:0;","ease":"power3.inOut"}]'
-
-                        data-textAlign="['left','left','left','left']">{{  $slider->title  }} <br> to product
-                    </div>
-
-                    <!-- LAYER 5  Paragraph-->
-                    <div class="tp-caption tp-resizeme text-light"
-                        id="slide-70-layer-3"
-                        data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"
-                        data-y="['top','top','top','top']" data-voffset="['420','279','271','235']"
-                        data-fontsize="['18','18','22','16']"
-                        data-lineheight="['30','34','32','28']"
-                        data-whitespace="nowrap"
-
-                        data-type="text"
-                        data-responsive_offset="on"
-
-                        data-frames='[{"delay":2900,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;opacity:0;","ease":"power3.inOut"}]'
-
-                        data-textAlign="['left','left','left','left']">{{ $slider->title }} <br> 10 years of experience in delivering superior products.
-                    </div>
-
-                    <!-- LAYER 6  Read More-->
-                    <div class="tp-caption rev-btn"
-                        id="slide-70-layer-4"
-                        data-x="['left','left','left','left']" data-hoffset="['15','15','15','15']"
-                        data-y="['top','top','top','top']" data-voffset="['525','385','370','320']"
-                        data-lineheight="['18','18','16','16']"
-                        data-width="none"
-                        data-height="none"
-                        data-whitespace="nowrap"
-                        data-responsive_offset="on"
-
-                        data-frames='[{"delay":3400,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":1000,"frame":"999","to":"x:50px;opacity:0;","ease":"power3.inOut"}]'
-
-                        data-textAlign="['center','center','center','center']"
-                        data-paddingtop="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]"
-                        data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]"><a href="it-services.html" class="octf-btn octf-btn-primary btn-slider btn-large">Learn More</a>
-                    </div>
-
-                </li>
-                @endforeach
-
-
-
-
-            </ul>
-            <div class="tp-bannertimer"></div>
+          @endforeach
         </div>
-    </div>
-
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
     <div class="padding-half bg-light-1">
         <div class="container">
             <div class="row">
@@ -539,5 +458,54 @@
         </div>
     </section>
 </div>
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<style>
+
+    .swiper-container {
+      width: 100%;
+      height: 768px;
+
+
+    }
+
+    .swiper-slide {
+      font-size: 18px;
+      background: #fff;
+        background-size: cover;
+        background-repeat: no-repeat;
+      /* Center slide text vertically */
+
+
+    }
+
+</style>
+
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'progressbar',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 6000,
+        disableOnInteraction: false,
+      },
+
+
+    });
+  </script>
 
 @endsection
