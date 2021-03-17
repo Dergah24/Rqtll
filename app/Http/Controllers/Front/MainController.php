@@ -26,7 +26,7 @@ class MainController extends Controller
     }
     public function index()
     {
-
+        App::setLocale('en');
         $lng= App::getLocale();
         $lang = ['az', 'en', 'ru'];
         if($lng == 'az') {

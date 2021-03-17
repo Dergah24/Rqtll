@@ -1,6 +1,6 @@
 (function( $ ) {
     "use strict";
-    
+
     $('.woocommerce-form-coupon-toggle .showcoupon').on("click", function(){
         $(this).toggleClass( "active" );
         if ($(this).hasClass( "active" )) {
@@ -9,22 +9,22 @@
             $('.woocommerce-form-coupon').stop(true, true).slideUp();
         }
     });
-    /* ========================================== 
+    /* ==========================================
 	Sticky Header 1
 	========================================== */
 	$(window).on("scroll", function(){
 		if ( $( '#site-header' ).hasClass( "sticky-header" ) ) {
-			var site_header = $('#site-header').outerHeight() + 30;	
-			
-		    if ($(window).scrollTop() >= site_header) {	    	
-		        $('.sticky-header .octf-main-header, .mobile-header-sticky .header_mobile').addClass('is-stuck');	        
+			var site_header = $('#site-header').outerHeight() + 30;
+
+		    if ($(window).scrollTop() >= site_header) {
+		        $('.sticky-header .octf-main-header, .mobile-header-sticky .header_mobile').addClass('is-stuck');
 		    }else {
-		        $('.sticky-header .octf-main-header, .mobile-header-sticky .header_mobile').removeClass('is-stuck');		              
+		        $('.sticky-header .octf-main-header, .mobile-header-sticky .header_mobile').removeClass('is-stuck');
 		    }
 		}
 	});
 
-    /* ========================================== 
+    /* ==========================================
     Search on Header
     ========================================== */
     $('.toggle_search').on("click", function(){
@@ -38,7 +38,7 @@
         $('.h-search-form-inner > form > input.search-field').focus();
     });
 
-    /* ========================================== 
+    /* ==========================================
     Back To Top
     ========================================== */
     if ($('#back-to-top').length) {
@@ -60,7 +60,7 @@
             $('html,body').animate({
                 scrollTop: 0
             }, 700);
-        }); 
+        });
     }
 
     /* Counter */
@@ -72,7 +72,7 @@
                 during  = parseInt( $this.attr('data-time') ),
                 topOfWindow = $(window).scrollTop();
 
-            if ( pos_y < topOfWindow ) {    
+            if ( pos_y < topOfWindow ) {
                 $({
                     countNum: $this.text()
                 }).animate({
@@ -98,7 +98,7 @@
                 during  = parseInt( $this.attr('data-time') ),
                 topOfWindow = $(window).scrollTop();
 
-            if ( pos_y < topOfWindow ) {    
+            if ( pos_y < topOfWindow ) {
                 $({
                     countNum: $this.text()
                 }).animate({
@@ -116,7 +116,7 @@
                 });
             }
         });
-        
+
         $('.ot-progress').each(function() {
             var pos_y = $(this).offset().top;
             var value = $(this).find(".progress-bar").data('percent');
@@ -237,8 +237,8 @@
         });
     }
 
-    
-    
+
+
     $(".link-image-action").magnificPopup({
         type: "image"
     });
@@ -247,9 +247,9 @@
     /*Portfolio Filter*/
     $(window).on("load", function () {
         if( $('#projects_grid').length > 0 ){
-            var $container = $('#projects_grid'); 
-            $container.isotope({ 
-                itemSelector : '.project-item', 
+            var $container = $('#projects_grid');
+            $container.isotope({
+                itemSelector : '.project-item',
                 layoutMode : 'masonry'
             });
 
@@ -267,25 +267,25 @@
                     $this.addClass('selected');
 
                 var selector = $(this).attr('data-filter');
-                    $container.isotope({ 
-                        filter: selector 
+                    $container.isotope({
+                        filter: selector
                     });
                 return false;
             });
-        };    
+        };
     });
 
 
-    
+
         // Initialize popup as usual
-        $('.image-link').magnificPopup({ 
+        $('.image-link').magnificPopup({
             type: 'image',
             mainClass: 'mfp-with-zoom', // this class is for CSS animation below
 
             zoom: {
                 enabled: true, // By default it's false, so don't forget to enable it
                 duration: 300, // duration of the effect, in milliseconds
-                easing: 'ease-in-out', // CSS transition easing function 
+                easing: 'ease-in-out', // CSS transition easing function
 
                 // The "opener" function should return the element from which popup will be zoomed in
                 // and to which popup will be scaled down
@@ -294,7 +294,7 @@
                   // openerElement is the element on which popup was initialized, in this case its <a> tag
                   // you don't need to add "opener" option if this code matches your needs, it's defailt one.
                   return openerElement.is('img') ? openerElement : openerElement.find('img');
-                }        
+                }
             },
             image: {
                 // options for image content type
@@ -321,7 +321,7 @@
             },
             480:{
                 items:3
-            },          
+            },
             767:{
                 items:4
             },
@@ -330,7 +330,7 @@
             }
         }
     });
-    
+
     /* --------------------------------------------------
     * project carousel
     * --------------------------------------------------*/
@@ -460,12 +460,12 @@
             }
         }
      });
-     
+
     $(window).on("load", function(){
     $('.projects-grid').each( function(){
-        var $container = $(this); 
-        $container.isotope({ 
-            itemSelector : '.project-item', 
+        var $container = $(this);
+        $container.isotope({
+            itemSelector : '.project-item',
             animationEngine : 'css',
         });
 
@@ -483,8 +483,8 @@
                 $this.addClass('selected');
 
             var selector = $(this).attr('data-filter');
-                $container.isotope({ 
-                    filter: selector 
+                $container.isotope({
+                    filter: selector
                 });
             return false;
         });
@@ -493,4 +493,26 @@
 
 
 })( jQuery );
+
+
+// swiper
+
+var swiper = new Swiper('.swiper-container', {
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'progressbar',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 6000,
+      disableOnInteraction: false,
+    },
+
+
+  });
 

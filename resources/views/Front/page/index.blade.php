@@ -8,9 +8,14 @@
 
 
           <div class="swiper-slide" style="background-image: url('{{ asset($slider->image) }}')">
-            <div class="container swiper-text">
-                <h1 class="title">test</h1>
-                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recuni rerum sequi officia quas, architecto consectetur?</p>
+            <div class="container text-container">
+                <h1 class="title">{{ $slider->title }}</h1>
+                <p class="desc">{{ $slider->desc }}</p>
+                <div class="row btn-row">
+                   <div class="leanr">
+                    <a href="" class="btn btn-successs">Leanr more</a>
+                   </div>
+                </div>
             </div>
           </div>
 
@@ -373,11 +378,11 @@
 
                 <div class="project-item projects-style-5">
 
-                    <div class="projects-box">
-                        <div class="projects-thumbnail">
+                    <div class="projects-box" >
+                        <div class="projects-thumbnail" >
                             <a href="portfolio-details-1.html">
-                                <img src="{{ asset('image').'/'.$images->image }}" class="" alt="">
-                                <span class="overlay"></span>
+                                <img src="{{ asset('image').'/'.$images->image }}"  alt="">
+                                <span ></span>
                             </a>
                         </div>
 
@@ -459,53 +464,5 @@
     </section>
 </div>
 
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
-<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<style>
-
-    .swiper-container {
-      width: 100%;
-      height: 768px;
-
-
-    }
-
-    .swiper-slide {
-      font-size: 18px;
-      background: #fff;
-        background-size: cover;
-        background-repeat: no-repeat;
-      /* Center slide text vertically */
-
-
-    }
-
-</style>
-
-
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'progressbar',
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      spaceBetween: 30,
-      centeredSlides: true,
-      autoplay: {
-        delay: 6000,
-        disableOnInteraction: false,
-      },
-
-
-    });
-  </script>
 
 @endsection

@@ -8,6 +8,10 @@
     <script src="{{ asset('Front') }}/js/jquery.countdown.min.js"></script>
     <script src="{{ asset('Front') }}/js/scripts.js"></script>
     <script src="{{ asset('Front') }}/js/header-mobile.js"></script>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- REVOLUTION JS FILES -->
 
     <script  src="{{ asset('Front') }}/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js"></script>

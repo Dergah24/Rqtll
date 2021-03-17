@@ -4246,7 +4246,7 @@ object {
   overflow: hidden;
 }
 .projects-style-2 .projects-box .projects-thumbnail .overlay {
-  background: rgba(12, 41, 53, 0.5);
+  background: rgba(9, 24, 31, 0.945);
   opacity: 0;
   z-index: 0;
 }
@@ -4330,7 +4330,7 @@ object {
   filter: grayscale(90%);
 }
 .project-slider .projects-box:hover .projects-thumbnail .overlay {
-  opacity: 1;
+  opacity: 5;
 }
 .project-slider .slick-arrow {
   left: 15px;
@@ -8101,4 +8101,82 @@ section {
 }
 .tp-bannertimer{
   height: 10px; background: rgba(0, 0, 0, 0);
+}
+
+/** slider swaperb **/
+
+.text-container{
+    position: relative;
+ }
+
+ .title{
+     top: 350px;
+     text-align: left;
+     position: absolute;
+     color: #fff;
+     text-transform: uppercase;
+
+ }
+ .desc{
+     top: 420px;
+     text-align: left;
+     position: absolute;
+     color: #fff;
+
+
+ }
+
+ .btn-row{
+     top: 500px;
+     text-align: left;
+     position: absolute;
+ }
+ .leanr{
+     border: solid 1px #43BAFF;
+     background: #43BAFF;
+     text: uppercase;
+ }
+
+ .leanr:hover{
+     background: #9f21b896;
+     border: solid 1px #9f21b896;
+ }
+
+
+
+
+
+
+
+ .swiper-container {
+   width: 100%;
+   height: 768px;
+
+
+ }
+
+ .swiper-slide {
+   font-size: 18px;
+   background: #fff;
+     background-size: cover;
+     background-repeat: no-repeat;
+   /* Center slide text vertically */
+ }
+
+ select option {
+    margin: 40px;
+    background: #211E3B;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+select {
+
+    background:  #211E3B;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.swiper-pagination-progressbar-fill{
+    background: #211E3B !important;
 }

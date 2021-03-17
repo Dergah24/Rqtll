@@ -1,4 +1,8 @@
 <footer id="site-footer" class="site-footer footer-v2">
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
