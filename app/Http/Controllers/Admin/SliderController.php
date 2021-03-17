@@ -44,16 +44,33 @@ class SliderController extends Controller
         $slider = new Slider();
 
         $slider->title_az = $request->title_az;
-        $slider->title_en = $request->title_en;
-        $slider->title_ru = $request->title_ru;
-
         $slider->desc_az  = $request->desc_az;
-        $slider->desc_en  = $request->desc_en;
-        $slider->desc_ru  = $request->desc_ru;
-
         $slider->slug_az  = Str::slug($request->title_az, '-');
-        $slider->slug_ru  = Str::slug($request->title_ru, '-');
+
+        if(isset($request->title_ru) && isset($request->desc_ru)){
+
+         $slider->title_en = $request->title_en;
+        $slider->desc_en  = $request->desc_en;
         $slider->slug_en  = Str::slug($request->title_en, '-');
+
+        }else{
+            $slider->title_en = $request->title_az;
+            $slider->desc_en  = $request->desc_az;
+            $slider->slug_en  = Str::slug($request->title_az, '-');
+        }
+
+        if(isset($request->title_en) && isset($request->desc_en)){
+            $slider->title_ru = $request->title_ru;
+            $slider->desc_ru  = $request->desc_ru;
+            $slider->slug_en  = Str::slug($request->title_en, '-');
+
+        }else{
+            $slider->title_ru = $request->title_az;
+            $slider->desc_ru  = $request->desc_az;
+            $slider->slug_ru  = Str::slug($request->title_ru, '-');
+        }
+
+
 
         $slider->link     = $request->link;
 
@@ -137,7 +154,7 @@ class SliderController extends Controller
      */
     public function destroy($id)
     {
-        $slider = Slider::find($id)->first();
+        $slider = Slider::whereId($id)->first();
 
 
         $slider->delete();

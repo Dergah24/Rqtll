@@ -6,14 +6,14 @@ use App\Http\Controllers\Admin\PartnersController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\Admin\ProductController;
-
 use App\Http\Controllers\Front\MainController;
 
 
 
-Route::get('/',[MainController::class,'index'])->name('main.index');
 
 
+    Route::get('/',[MainController::class,'index'])->name('main.index');
+    Route::get('contuct-us/',[MainController::class,'contuctUs'])->name('contuctUs');
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

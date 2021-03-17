@@ -19,29 +19,39 @@ class MainController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function __construct()
+    {
+        $contact =Contact::whereId(1)->first();
+       return view()->share('contact',$contact);
+    }
     public function index()
     {
-        App::setLocale('az');
+
         $lng= App::getLocale();
+        $lang = ['az', 'en', 'ru'];
         if($lng == 'az') {
-            $sliders= Slider::select('title_az','desc_az','image')->get();
+            App::setLocale('az');
+            $sliders= Slider::select('title_az as title','desc_az as desc','image')->get();
             $products = Product::select('title_az as title','image')->get();
 
-        }
-
-        if($lng=='ru'){
-             $sliders= Slider::select('title_ru ','desc_ru','image')->get();
+        }elseif($lng=='ru'){
+            App::setLocale('ru');
+             $sliders= Slider::select('title_ru   as title ','desc_ru  as desc','image')->get();
              $products = Product::select('title_az as title','image')->get();
         }
 
-        if($lng=='en'){
-             $sliders= Slider::select('title_en','desc_en','image')->get();
+        elseif($lng=='en'){
+            App::setLocale('en');
+             $sliders= Slider::select('title_en  as title','desc_en as desc','image')->get();
              $products = Product::select('title_az as title','image')->get();
+        }else{
+            $sliders= Slider::select('title_az  as title','desc_az as desc','image')->get();
+            $products = Product::select('title_az as title','image')->get();
         }
         $galeriImages = Galery::all();
         $partners = Partner::all();
-        $contact =Contact::whereId(1)->first();
-        return view('front.page.index',compact('contact','partners','sliders','products','galeriImages'));
+
+        return view('front.page.index',compact('partners','sliders','products','galeriImages'));
     }
 
     /**
@@ -49,9 +59,9 @@ class MainController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function contuctUs()
     {
-        //
+        return view('Front.page.contuctus');
     }
 
     /**
