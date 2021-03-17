@@ -7,17 +7,19 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Front\MainController;
-use App\Http\Controllers\LanguageController;
-use GuzzleHttp\Middleware;
+use App\Http\Controllers\LocalizationController;
 
 
-Route::redirect('/', '/az');
 
-Route::group(["middleware" => ["Setlanguage"], "prefix" => "{language}"], function() {
+
+Route::get('/locale/{locale}',function($locale) {
+    Session::put('locale',$locale);
+    return redirect()->back();
+});
+
     Route::get('/',[MainController::class,'index'])->name('main.index');
     Route::get('contuct-us/',[MainController::class,'contuctUs'])->name('contuctUs');
 
-});
 
 
 

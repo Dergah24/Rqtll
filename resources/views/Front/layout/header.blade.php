@@ -26,6 +26,7 @@
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
+{{ App::getLocale()}}
 <body class="royal_preloader">
     <div id="page" class="site">
         <header id="site-header" class="site-header sticky-header header-static">
@@ -50,16 +51,8 @@
                             </div>
                             <div class="col-md-2">
 
-                                <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Dropdown
-                                    </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                      <li><button class="dropdown-item" type="button">Action</button></li>
-                                      <li><button class="dropdown-item" type="button">Another action</button></li>
-                                      <li><button class="dropdown-item" type="button">Something else here</button></li>
-                                    </ul>
-                                  </div>
+                                <a href="/locale/az">Azerbaycan</a>
+                                <a href="/locale/en">English</a>
                             </div>
                         </div>
                     </div>
@@ -72,7 +65,7 @@
                             <div class="octf-mainbar-row octf-row">
                                 <div class="octf-col logo-col">
                                     <div id="site-logo" class="site-logo">
-                                        <a href="{{ route('main.index',App::getLocale()) }}">
+                                        <a href="{{ route('main.index') }}">
                                             <img src="{{ asset('front') }}/images/logo.svg" style="width: 70px !important;" alt="Engitech" class="">
                                         </a>
                                     </div>
@@ -81,7 +74,7 @@
                                     <nav id="site-navigation" class="main-navigation">
                                         <ul class="menu">
                                             <li class="menu-item current-menu-item current-menu-ancestor">
-                                                <a href="{{ route('main.index',App::getLocale()) }}">{{ __('static.home') }}</a>
+                                                <a href="{{ route('main.index') }}">{{ __('static.home') }}</a>
 
                                             </li>
                                             <li class="menu-item"><a href="#">Haqqımızda</a>
@@ -110,7 +103,7 @@
                                             <li class="menu-item"><a href="blog.html">Qalereya</a>
 
                                             </li>
-                                            <li class=""><a href="{{ route('contuctUs',App::getLocale()) }}">Əlaqə</a></li>
+                                            <li class=""><a href="{{ route('contuctUs') }}">Əlaqə</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -127,7 +120,7 @@
                 <div class="container">
                     <div class="mlogo_wrapper clearfix">
                         <div class="mobile_logo">
-                            <a href="{{ route('main.index',App::getLocale()) }}">
+                            <a href="{{ route('main.index') }}">
                                 <img src="{{ asset('Front') }}/images/logo.svg" alt="Engitech">
                             </a>
                         </div>
@@ -140,7 +133,7 @@
                         <div class="mobile_nav collapse">
                             <ul id="menu-main-menu" class="mobile_mainmenu">
                                 <li class="menu current-menu-item current-menu-ancestor">
-                                    <a href="{{ route('main.index',App::getLocale()) }}">Əsas Səhifə</a>
+                                    <a href="{{ route('main.index') }}">Əsas Səhifə</a>
 
                                 </li>
                                 <li class="menu-item"><a href="#">Haqqımızda</a>

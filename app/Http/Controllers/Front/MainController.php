@@ -22,26 +22,22 @@ class MainController extends Controller
     public function __construct()
     {
         $contact =Contact::whereId(1)->first();
-       return view()->share('contact',$contact);
+
+        return view()->share('contact', $contact);
+
     }
     public function index()
     {
-        App::setLocale('en');
-        $lng= App::getLocale();
-        $lang = ['az', 'en', 'ru'];
-        if($lng == 'az') {
-            App::setLocale('az');
+
+
+        if(App::getLocale() == 'az') {
             $sliders= Slider::select('title_az as title','desc_az as desc','image')->get();
             $products = Product::select('title_az as title','image')->get();
-
-        }elseif($lng=='ru'){
-            App::setLocale('ru');
+        }elseif(App::getLocale() == 'ru'){
              $sliders= Slider::select('title_ru   as title ','desc_ru  as desc','image')->get();
              $products = Product::select('title_az as title','image')->get();
         }
-
-        elseif($lng=='en'){
-            App::setLocale('en');
+        elseif(App::getLocale() == 'en'){
              $sliders= Slider::select('title_en  as title','desc_en as desc','image')->get();
              $products = Product::select('title_az as title','image')->get();
         }else{
@@ -51,7 +47,7 @@ class MainController extends Controller
         $galeriImages = Galery::all();
         $partners = Partner::all();
 
-        return view('front.page.index',compact('partners','sliders','products','galeriImages'));
+        return  view('front.page.index',compact('partners','sliders','products','galeriImages'));
     }
 
     /**
@@ -61,7 +57,7 @@ class MainController extends Controller
      */
     public function contuctUs()
     {
-        return view('Front.page.contuctus');
+                return view('Front.page.contuctus');
     }
 
     /**
