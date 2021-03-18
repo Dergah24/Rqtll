@@ -12,6 +12,8 @@
 
                     <h1 class="title animate__animated animate__bounce">{{ $slider->title }}</h1>
 
+
+
                     <div class="row btn-row">
                         <div >
                          <a href="" class="octf-btn octf-btn-primary btn-slider btn-large">LEARN MORE</a>
@@ -368,7 +370,8 @@
                 </div>
             </div>
         </div>
-</div>
+   </div>
+</section>
 </section>
 <section class="technology-v1">
     <div class="container">
@@ -380,40 +383,28 @@
                 </div>
             </div>
         </div>
-        <div class="owl-carousel owl-theme project-slider">
-            @foreach ($galeriImages as $images)
-            <div class="project-item projects-style-5">
 
-                <div class="">
-                    <div class="">
-                        <a href="#">
-                            <img style="width: 800px" src="{{ asset('image').'/'.$images->image }}" alt="">
-                            <span></span>
-                        </a>
+
+        <div class="owl-carousel owl-theme project-slider slider-gallery">
+
+            @foreach ($galeriImages as $images)
+
+            <div class="project-item projects-style-2">
+                <div class="projects-box gallery"  >
+                    <div class="projects-thumbnail" >
+
+                            <img src="{{ asset('image').'/'.$images->image }}"  onclick="myFunction()" class="" alt="">
+                            <span class="overlay"></span>
+
                     </div>
 
                 </div>
             </div>
             @endforeach
+
         </div>
 
-        <!--   <div class="row">
-                <div class="col-md-12">
-                    <div class="ot-heading text-center text-white">
-                        <span>// TECHNOLOGY INDEX</span>
-                        <h2 class="main-heading">Galery <br>the Goal of Trusting Relationships</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="space-15"></div>
-            <div class="row">
-                <div class="col-lg-2 col-md-4 col-sm-6 col-12">
-                    <a class="tech-box text-center" href="it-services.html">
-                        <div class="icon-main"><span class="flaticon-tv"></span></div>
-                        <h5>TV</h5>
-                    </a>
-                </div>
-            </div> -->
+
 
     </div>
     <div class="row">
@@ -470,4 +461,6 @@
     </div>
 </section>
 </div>
+
+
 @endsection
