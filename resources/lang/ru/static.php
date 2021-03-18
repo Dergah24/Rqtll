@@ -2,10 +2,10 @@
 
 
 return [
-    'home'=>'O HAC',
-    'haqqimizda'=>'Главная страница',
+    'home'=>'Главная страница',
+    'haqqimizda'=>'O HAC',
     'xidmetler'=>'Сервисы',
     'mehsul'=>' Товары',
     'qalereya'=>'Галерея',
-    'elaqe'=>'Контакт'
+    'elaqe'=>'Контакты'
 ];

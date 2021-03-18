@@ -103,7 +103,12 @@ class ProductController extends Controller
     public function update(ProductUpdateRequest $request, $id)
     {
         $product =  Product::whereId($id)->first();
-
+        if($request->hasFile('image')){
+            $fileName = $request->title_az.time().'.'.$request->image->extension();
+            $fileNamePath = 'uploads/'.$fileName;
+            $product->image=$fileNamePath;
+            $request->image->move(public_path('uploads'), $fileName);
+       }
         $product->title_az = $request->title_az;
         $product->title_en = $request->title_en;
         $product->title_ru = $request->title_ru;
@@ -112,12 +117,7 @@ class ProductController extends Controller
         $product->slug_en =Str::slug($request->title_en, '-');
         $product->slug_ru =Str::slug($request->title_ru, '-');
 
-        if($request->file()){
-            $fileName = $request->title_az.time().'.'.$request->image->extension();
-            $fileNamePath = 'uploads/'.$fileName;
-            $product->image = $fileNamePath;
-            $request->image->move(public_path('uploads'), $fileName);
-       }
+
        $product->save();
 
        return redirect()->back()->with('success','Mehsul yenilendi');

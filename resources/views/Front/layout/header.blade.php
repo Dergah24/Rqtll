@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>Engitech</title>
+    <title>RQTT</title>
     <link rel="shortcut icon" type="{{ asset('Front') }}/image/x-icon" href="{{ asset('Front') }}/images/favicon.png" />
     <link rel="stylesheet" href="{{ asset('Front') }}/css/bootstrap.min.css" />
     <link rel="stylesheet" href="{{ asset('Front') }}/css/font-awesome.min.css" />
@@ -69,7 +69,7 @@
                                 <div class="octf-col logo-col">
                                     <div id="site-logo" class="site-logo">
                                         <a href="{{ route('main.index') }}">
-                                            <img src="{{ asset('front') }}/images/logo.svg" style="width: 70px !important;" alt="Engitech" class="">
+                                            <img src="{{ asset('front') }}/images/logo.svg" style="width: 70px !important;" alt="" class="">
                                         </a>
                                     </div>
                                 </div>
@@ -84,7 +84,7 @@
 
                                             </li>
 
-                                            <li class="menu-item-has-children current-menu-item current-menu-ancestor"><a href="#">{{ __('static.xidmetler') }}</a>
+                                            <li class="menu-item-has-children "><a href="#">{{ __('static.xidmetler') }}</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="portfolio-masonry.html">Portfolio Masonry</a></li>
                                                     <li><a href="portfolio-carousel.html">Portfolio Carousel</a></li>

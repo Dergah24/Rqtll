@@ -26,11 +26,11 @@ class SliderPostRequest extends FormRequest
 
             return [
                 'title_az'=>'min:3|required',
-                'title_en'=>'max:25',
-                'title_ru'=>'max:25',
+                'title_en'=>'max:200',
+                'title_ru'=>'max:200',
                 'desc_az'=>'min:3|required',
-                'desc_en'=>'max:25',
-                'desc_ru'=>'max:25',
+                'desc_en'=>'max:100',
+                'desc_ru'=>'max:100',
                 'link'=>'min:3|required',
 
                 'image'=>'required|mimes:jpeg,jpg|max:2000'

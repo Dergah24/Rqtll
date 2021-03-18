@@ -31,7 +31,7 @@
             //Preloader
             Royal_Preloader.config({
                 mode           : 'logo',
-                logo           : 'images/logo.svg',
+                logo           : 'images/logo.png',
                 logo_size      : [160, 75],
                 showProgress   : true,
                 showPercentage : true,
