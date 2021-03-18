@@ -409,7 +409,7 @@ h4 {
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -3976,6 +3976,7 @@ object {
   -moz-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   -ms-transition: all 0.3s linear;
+
 }
 .serv-box-2 .big-number {
   position: absolute;
@@ -5767,6 +5768,7 @@ object {
   -moz-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   -ms-transition: all 0.3s linear;
+
 }
 .partners .swiper-slide-image:hover {
   -webkit-filter: none;
@@ -8115,6 +8117,8 @@ section {
      position: absolute;
      color: #fff;
      text-transform: uppercase;
+     font-size: 60px;
+
 
  }
  .desc{
@@ -8134,7 +8138,10 @@ section {
  .leanr{
      border: solid 1px #43BAFF;
      background: #43BAFF;
-     text: uppercase;
+     text-transform: uppercase;
+     padding: 20px 30px;
+     font-weight: bold;
+     background-color: #398f14;
  }
 
  .leanr:hover{
@@ -8145,12 +8152,16 @@ section {
 
 
 
-
-
+ .swiper-pagination{
+        color: #F0F3FB;
+        font-size: 20px;
+        font-style: oblique;
+ }
 
  .swiper-container {
    width: 100%;
    height: 768px;
+
 
 
  }
@@ -8160,6 +8171,8 @@ section {
    background: #fff;
      background-size: cover;
      background-repeat: no-repeat;
+
+
    /* Center slide text vertically */
  }
 
@@ -8180,3 +8193,19 @@ select {
 .swiper-pagination-progressbar-fill{
     background: #211E3B !important;
 }
+
+
+@media screen and (min-width: 1024px){
+    .bg-dark-primary .row .serv-box-2{
+        width: 270px;
+        height: 270px;
+    }
+    .serv-box-2 .content-box{
+        height: 220px;
+    }
+    .serv-box-2 .content-box .btn-details{
+        position: absolute;
+        bottom: 10px;
+        left: -10px;
+    }
+    }

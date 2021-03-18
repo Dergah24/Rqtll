@@ -28,16 +28,16 @@ class MainController extends Controller
     }
     public function index()
     {
+        $lng =  App::getLocale();
 
-
-        if(App::getLocale() == 'az') {
+        if( $lng == 'az') {
             $sliders= Slider::select('title_az as title','desc_az as desc','image')->get();
             $products = Product::select('title_az as title','image')->get();
-        }elseif(App::getLocale() == 'ru'){
+        }elseif($lng == 'ru'){
              $sliders= Slider::select('title_ru   as title ','desc_ru  as desc','image')->get();
              $products = Product::select('title_az as title','image')->get();
         }
-        elseif(App::getLocale() == 'en'){
+        elseif($lng == 'en'){
              $sliders= Slider::select('title_en  as title','desc_en as desc','image')->get();
              $products = Product::select('title_az as title','image')->get();
         }else{

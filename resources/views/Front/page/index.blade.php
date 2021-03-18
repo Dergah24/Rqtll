@@ -7,26 +7,28 @@
             @foreach ($sliders as $slider)
 
 
-          <div class="swiper-slide" style="background-image: url('{{ asset($slider->image) }}')">
-            <div class="container text-container">
-                <h1 class="title">{{ $slider->title }}</h1>
-                <p class="desc">{{ $slider->desc }}</p>
-                <div class="row btn-row">
-                   <div class="leanr">
-                    <a href="" class="btn btn-successs">Leanr more</a>
-                   </div>
+            <div class="swiper-slide" style="background-image: url('{{ asset($slider->image) }}')">
+                <div class="container text-container">
+
+                    <h1 class="title animate__animated animate__bounce">{{ $slider->title }}</h1>
+
+                    <div class="row btn-row">
+                        <div >
+                         <a href="" class="octf-btn octf-btn-primary btn-slider btn-large">LEARN MORE</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-          </div>
 
-          @endforeach
+            @endforeach
+
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
         <!-- Add Arrows -->
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
-      </div>
+    </div>
     <div class="padding-half bg-light-1">
         <div class="container">
             <div class="row">
@@ -56,9 +58,11 @@
                 <div class="col-lg-5 col-md-12 align-self-center">
                     <div class="ot-heading">
                         <span>// {{ __('static.haqqimizda') }}</span>
-                        <h2 class="main-heading"> <span style="color: #212121">20 ildən </span> çoxdur ki, xidmətlərimizi təqdim edirik.</h2>
+                        <h2 class="main-heading"> <span style="color: #212121">20 ildən </span> çoxdur ki,
+                            xidmətlərimizi təqdim edirik.</h2>
                     </div>
-                    <p class="mb-15">Əsasa fəaliyyət sahəmiz müasir dövürdə qabaqcıl, keyfiyyətli vı güvənli texnalogiyalardan biri olan Fiber Optik Kabelləri çəkməkdən ibarətdir.</p>
+                    <p class="mb-15">Əsasa fəaliyyət sahəmiz müasir dövürdə qabaqcıl, keyfiyyətli vı güvənli
+                        texnalogiyalardan biri olan Fiber Optik Kabelləri çəkməkdən ibarətdir.</p>
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="icon-box-s1">
@@ -96,7 +100,8 @@
                         </div>
                         <div class="home-about-btn">
                             <div class="ot-button">
-                                <a href="about-us.html" class="btn-details"><i class="flaticon-right-arrow-1"></i> ƏTRAFLI MƏLUMAT</a>
+                                <a href="about-us.html" class="btn-details"><i class="flaticon-right-arrow-1"></i>
+                                    ƏTRAFLI MƏLUMAT</a>
                                 <div class="space-15"></div>
                             </div>
                         </div>
@@ -111,7 +116,9 @@
                 <div class="col-md-12 text-center">
                     <div class="ot-heading">
                         <span class="text-primary-light">// Xidmətlərimiz</span>
-                        <h2 class="main-heading text-white">Fiber Optik kabellərinin hava yolu ilə, torpaq altından, binalar arası çəkilməsini, hər cür layihə, kabel çəkilişi və bərpa işlərini təmin edirik.</h2>
+                        <h2 class="main-heading text-white">Fiber Optik kabellərinin hava yolu ilə, torpaq altından,
+                            binalar arası çəkilməsini, hər cür layihə, kabel çəkilişi və bərpa işlərini təmin edirik.
+                        </h2>
                     </div>
                     <div class="space-20"></div>
                 </div>
@@ -119,49 +126,53 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                     <div class="serv-box-2 s2">
-                        <span class="big-number">01</span>
+                        <span class="big-number"></span>
                         <div class="icon-main"><span class="flaticon-tablet"></span></div>
                         <div class="content-box">
-                            <div><h5>F/O  kabelinin hava yolu ilə çəkilməsi</h5></div>
+                            <div>
+                                <h5>F/O kabelinin hava yolu ilə çəkilməsi</h5>
+                            </div>
 
-                            <a href="#" class="btn-details"><i class="flaticon-right-arrow-1"></i> LEARN
-                                MORE</a>
+                            <a href="#" class="btn-details"><i class="flaticon-right-arrow-1"></i>  Ətraflı məlumat</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                     <div class="serv-box-2 s2">
-                        <span class="big-number">02</span>
+                        <span class="big-number"></span>
                         <div class="icon-main"> <span class="flaticon-ui"></span></div>
                         <div class="content-box">
-                            <div><h5>F/O kabelinin  torpaq altından çəkilməsi</h5></div>
+                            <div>
+                                <h5>F/O kabelinin torpaq altından çəkilməsi</h5>
+                            </div>
 
                             <a href="#" class="btn-details"><i class="flaticon-right-arrow-1"></i>
-                                LEARN MORE</a>
+                                Ətraflı Mulumat</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                     <div class="serv-box-2 s2">
-                        <span class="big-number">03</span>
+                        <span class="big-number"></span>
                         <div class="icon-main"><span class="flaticon-report"></span></div>
                         <div class="content-box">
-                           <div> <h5>F/O kabelinin binalar arası çəkilməsi</h5></div>
-
-                            <a href="#" class="btn-details"><i class="flaticon-right-arrow-1"></i> LEARN
-                                MORE</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                    <div class="serv-box-2 s2">
-                        <span class="big-number">03</span>
-                        <div class="icon-main"><span class="flaticon-report"></span></div>
-                        <div class="content-box">
-                            <div>                            <h5>Kamera və dəmir  dirəklərinin quraşdırılması </h5>
+                            <div>
+                                <h5>F/O kabelinin binalar arası çəkilməsi</h5>
                             </div>
-                            <a href="#" class="btn-details"><i class="flaticon-right-arrow-1"></i> LEARN
-                                MORE</a>
+
+                            <a href="#" class="btn-details"><i class="flaticon-right-arrow-1"></i> Ətraflı məlumat</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="serv-box-2 s2">
+                        <span class="big-number"></span>
+                        <div class="icon-main"><span class="flaticon-report"></span></div>
+                        <div class="content-box">
+                            <div>
+                                <h5>Kamera və dəmir dirəklərinin quraşdırılması </h5>
+                            </div>
+                            <a href="#" class="btn-details"><i class="flaticon-right-arrow-1"></i> Ətraflı məlumat</a>
                         </div>
                     </div>
                 </div>
@@ -170,42 +181,46 @@
 
             </div>
 
-            <div class="row">
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+            <div class="row" style="justify-content: center" >
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                     <div class="serv-box-2 s2">
-                        <span class="big-number">011</span>
+                        <span class="big-number"></span>
                         <div class="icon-main"><span class="flaticon-report"></span></div>
                         <div class="content-box">
-                            <div><h5>KRQ  quyularının quraşdırılması</h5></div>
+                            <div>
+                                <h5>KRQ quyularının quraşdırılması</h5>
+                            </div>
 
-                            <a href="#" class="btn-details"><i class="flaticon-right-arrow-1"></i> LEARN
-                                MORE</a>
+                            <a href="#" class="btn-details"><i class="flaticon-right-arrow-1"></i>  Ətraflı məlumat</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                     <div class="serv-box-2 s1">
-                        <span class="big-number">022</span>
+                        <span class="big-number"></span>
                         <div class="icon-main"><span class="flaticon-report"></span></div>
                         <div class="content-box">
-                            <div><h5>Optik birləşdirici qolçaqlarin və optik sonlanma qutusunun quraşdırılması/qaynaq edilməsi</h5></div>
+                            <div>
+                                <h5>Optik birləşdirici qolçaqlarin və optik sonlanma qutusunun quraşdırılması/qaynaq
+                                    edilməsi</h5>
+                            </div>
 
-                            <a href="#" class="btn-details"><i class="flaticon-right-arrow-1"></i> LEARN
-                                MORE</a>
+                            <a href="#" class="btn-details"><i class="flaticon-right-arrow-1"></i> Ətraflı məlumat</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                     <div class="serv-box-2 s2">
-                        <span class="big-number">033</span>
+                        <span class="big-number"></span>
                         <div class="icon-main"><span class="flaticon-shield"></span></div>
                         <div class="content-box">
-                            <div><h5>Radarlarin çəkilməsi</h5></div>
+                            <div>
+                                <h5>Radarlarin çəkilməsi</h5>
+                            </div>
 
-                            <a href="it-services.html" class="btn-details"><i class="flaticon-right-arrow-1"></i> LEARN
-                                MORE</a>
+                            <a href="it-services.html" class="btn-details"><i class="flaticon-right-arrow-1"></i>  Ətraflı məlumat</a>
                         </div>
                     </div>
                 </div>
@@ -313,7 +328,6 @@
 
                     </div>
                 </div>
-
             </div>
         </div>
         <div class="space-40"></div>
@@ -321,10 +335,7 @@
     <section class="no-padding-top">
         <div class="owl-carousel owl-theme project-slider">
 
-
             @foreach ($products as $product)
-
-
 
             <div class="project-item projects-style-2">
                 <div class="projects-box">
@@ -351,51 +362,42 @@
 
             <div class="home-about-btn">
                 <div class="ot-button">
-                    <a href="about-us.html" class="btn-details"><i class="flaticon-right-arrow-1"></i> ƏTRAFLI MƏLUMAT</a>
+                    <a href="about-us.html" class="btn-details"><i class="flaticon-right-arrow-1"></i> ƏTRAFLI
+                        MƏLUMAT</a>
                     <div class="space-15"></div>
                 </div>
             </div>
+        </div>
+</div>
+</section>
+<section class="technology-v1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="ot-heading">
+                    <span>// Qalereya</span>
+
+                </div>
             </div>
         </div>
+        <div class="owl-carousel owl-theme project-slider">
+            @foreach ($galeriImages as $images)
+            <div class="project-item projects-style-5">
 
-
-    </section>
-
-
-    <section class="technology-v1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="ot-heading">
-                        <span>// Qalereya</span>
-
+                <div class="">
+                    <div class="">
+                        <a href="#">
+                            <img style="width: 800px" src="{{ asset('image').'/'.$images->image }}" alt="">
+                            <span></span>
+                        </a>
                     </div>
+
                 </div>
             </div>
-            <div class="owl-carousel owl-theme project-slider">
+            @endforeach
+        </div>
 
-
-                @foreach ($galeriImages as $images)
-
-
-
-                <div class="project-item projects-style-5">
-
-                    <div class="projects-box" >
-                        <div class="projects-thumbnail" >
-                            <a href="portfolio-details-1.html" >
-                                <img src="{{ asset('image').'/'.$images->image }}"  alt="">
-                                <span ></span>
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-                @endforeach
-
-            </div>
-
-            <!--   <div class="row">
+        <!--   <div class="row">
                 <div class="col-md-12">
                     <div class="ot-heading text-center text-white">
                         <span>// TECHNOLOGY INDEX</span>
@@ -413,71 +415,59 @@
                 </div>
             </div> -->
 
+    </div>
+    <div class="row">
+        <div class="col-md-8"></div>
+        <div class="home-about-btn">
+            <div class="ot-button">
+                <a href="about-us.html" class="btn-details"><i class="flaticon-right-arrow-1"></i> ƏTRAFLI MƏLUMAT</a>
+                <div class="space-15"></div>
+            </div>
         </div>
+    </div>
+    </div>
+</section>
+<section>
+    <div class="container">
         <div class="row">
-
-            <div class="col-md-8"></div>
-
-            <div class="home-about-btn">
-                <div class="ot-button">
-                    <a href="about-us.html" class="btn-details"><i class="flaticon-right-arrow-1"></i> ƏTRAFLI MƏLUMAT</a>
-                    <div class="space-15"></div>
+            <div class="col-md-12">
+                <div class="ot-heading text-center">
+                    <span>// Partnyorlar</span>
+                    <h2 class="main-heading"></h2>
                 </div>
-            </div>
             </div>
         </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="ot-heading text-center">
-                        <span>// Partnyorlar</span>
-                        <h2 class="main-heading"></h2>
-                    </div>
-                </div>
-            </div>
-            <div class="space-35"></div>
-            <div class="row">
-
-                <div class="col-md-12">
-                    <div class="ot-testimonials">
-                        <div class="owl-carousel owl-theme testimonial-inner ot-testimonials-slider">
-                            @foreach ($partners as $partner)
-
-
-                            <div class="testi-item">
-                                <div class="layer1"></div>
-                                <div class="layer2">
-                                    <div class="t-head flex-middle">
-                                        <img src="{{ asset('image').'/'.$partner->image }}" alt="{{ $partner->image }}"
-                                            class="lazyloaded" data-ll-status="loaded" style="width: 100px">
-                                        <div class="tinfo">
-                                            <h6>SoftTech,</h6>
-                                            <span>Manager of Company</span>
-                                        </div>
-                                    </div>
-                                    <div class="ttext">
-                                        "Patience. Infinite patience. No shortcuts. Very well thought out and articulate
-                                        communication. Clear milestones, deadlines and fast work. Even if the client is
-                                        being careless. The best part...always solving problems with great original
-                                        ideas!."
+        <div class="space-35"></div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="ot-testimonials">
+                    <div class="owl-carousel owl-theme testimonial-inner ot-testimonials-slider">
+                        @foreach ($partners as $partner)
+                        <div class="testi-item">
+                            <div class="layer1"></div>
+                            <div class="layer2">
+                                <div class="t-head flex-middle">
+                                    <img src="{{ asset('image').'/'.$partner->image }}" alt="{{ $partner->image }}"
+                                        class="lazyloaded" data-ll-status="loaded" style="width: 100px">
+                                    <div class="tinfo">
+                                        <h6>SoftTech,</h6>
+                                        <span>Manager of Company</span>
                                     </div>
                                 </div>
+                                <div class="ttext">
+                                    "Patience. Infinite patience. No shortcuts. Very well thought out and articulate
+                                    communication. Clear milestones, deadlines and fast work. Even if the client is
+                                    being careless. The best part...always solving problems with great original
+                                    ideas!."
+                                </div>
                             </div>
-                            @endforeach
-
-
-
-
                         </div>
+                        @endforeach
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 </div>
-
-
 @endsection
