@@ -26,7 +26,7 @@
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
-{{ App::getLocale()}}
+
 <body class="royal_preloader">
     <div id="page" class="site">
         <header id="site-header" class="site-header sticky-header header-static">
@@ -43,16 +43,17 @@
                                     <li><a href="{{ $contact->img }}" target="_self"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-5">
                                 <ul class="topbar-info align-self-end clearfix">
-                                    <li><a href="tel:+1-800-456-478-23"><i class="fas fa-phone-alt"></i> {{ $contact->tel1 }}</a></li>
-                                    <li><a href="mailto:engitech@mail.com"><i class="fas fa-envelope"></i> {{ $contact->email }}</a></li>
+                                    <li><a href="tel: {{ $contact->tel1 }}"><i class="fas fa-phone-alt"></i> {{ $contact->tel1 }}</a></li>
+                                    <li><a href="mailto:{{ $contact->email }}"><i class="fas fa-envelope"></i> {{ $contact->email }}</a></li>
                                 </ul>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-3">
 
-                                <a href="/locale/az">Azerbaycan</a>
-                                <a href="/locale/en">English</a>
+                                <a href="/lang/az">Azərbaycan</a>
+                                <a href="/lang/en">English</a>
+                                <a href="/lang/ru">Pусский</a>
                             </div>
                         </div>
                     </div>
@@ -77,11 +78,11 @@
                                                 <a href="{{ route('main.index') }}">{{ __('static.home') }}</a>
 
                                             </li>
-                                            <li class="menu-item"><a href="#">Haqqımızda</a>
+                                            <li class="menu-item"><a href="#">{{ __('static.haqqimizda') }}</a>
 
                                             </li>
 
-                                            <li class="menu-item"><a href="#">Xidmətlər</a>
+                                            <li class="menu-item-has-children current-menu-item current-menu-ancestor"><a href="#">{{ __('static.xidmetler') }}</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="portfolio-masonry.html">Portfolio Masonry</a></li>
                                                     <li><a href="portfolio-carousel.html">Portfolio Carousel</a></li>
@@ -97,13 +98,13 @@
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li class="menu-item-has"><a href="blog.html">Layihələr</a>
+                                            <li class="menu-item-has"><a href="blog.html">{{ __('static.mehsul') }}</a>
 
                                             </li>
-                                            <li class="menu-item"><a href="blog.html">Qalereya</a>
+                                            <li class="menu-item"><a href="blog.html">{{ __('static.qalereya') }}</a>
 
                                             </li>
-                                            <li class=""><a href="{{ route('contuctUs') }}">Əlaqə</a></li>
+                                            <li class=""><a href="{{ route('contuctUs') }}">{{ __('static.elaqe') }}</a></li>
                                         </ul>
                                     </nav>
                                 </div>

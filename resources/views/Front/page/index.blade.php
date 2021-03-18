@@ -55,27 +55,25 @@
             <div class="row">
                 <div class="col-lg-5 col-md-12 align-self-center">
                     <div class="ot-heading">
-                        <span>// about company</span>
-                        <h2 class="main-heading">haqimizda</h2>
+                        <span>// {{ __('static.haqqimizda') }}</span>
+                        <h2 class="main-heading"> <span style="color: #212121">20 ildən </span> çoxdur ki, xidmətlərimizi təqdim edirik.</h2>
                     </div>
-                    <p class="mb-15">Engitech is the partner of choice for many of the world’s leading enterprises, SMEs
-                        and technology challengers. We help businesses elevate their value through custom software
-                        development, product design, QA and consultancy services.</p>
+                    <p class="mb-15">Əsasa fəaliyyət sahəmiz müasir dövürdə qabaqcıl, keyfiyyətli vı güvənli texnalogiyalardan biri olan Fiber Optik Kabelləri çəkməkdən ibarətdir.</p>
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="icon-box-s1">
                                 <div class="icon-main"><span class="flaticon-medal"></span></div>
-                                <h5>Experience</h5>
+                                <h5>Təcrübə</h5>
                                 <div class="line-box"></div>
-                                <p>Our great team of more than 1400 software experts.</p>
+
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <div class="icon-box-s1">
                                 <div class="icon-main"><span class="flaticon-gear"></span></div>
-                                <h5>Quick Support</h5>
+                                <h5>Sürətli Dəstək</h5>
                                 <div class="line-box"></div>
-                                <p>We’ll help you test bold new ideas while sharing your.</p>
+
                             </div>
                         </div>
                         <div class="space-15"></div>
@@ -98,8 +96,7 @@
                         </div>
                         <div class="home-about-btn">
                             <div class="ot-button">
-                                <a href="about-us.html" class="btn-details"><i class="flaticon-right-arrow-1"></i> LEANR
-                                    MORE ABOUT US</a>
+                                <a href="about-us.html" class="btn-details"><i class="flaticon-right-arrow-1"></i> ƏTRAFLI MƏLUMAT</a>
                                 <div class="space-15"></div>
                             </div>
                         </div>
@@ -113,8 +110,8 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="ot-heading">
-                        <span class="text-primary-light">// why choose us</span>
-                        <h2 class="main-heading text-white">Xidemetler<br> slideri</h2>
+                        <span class="text-primary-light">// Xidmətlərimiz</span>
+                        <h2 class="main-heading text-white">Fiber Optik kabellərinin hava yolu ilə, torpaq altından, binalar arası çəkilməsini, hər cür layihə, kabel çəkilişi və bərpa işlərini təmin edirik.</h2>
                     </div>
                     <div class="space-20"></div>
                 </div>
@@ -125,9 +122,9 @@
                         <span class="big-number">01</span>
                         <div class="icon-main"><span class="flaticon-tablet"></span></div>
                         <div class="content-box">
-                            <h5>Product Design</h5>
-                            <div>Our product design service lets you prototype, test and validate your ideas.</div>
-                            <a href="it-services.html" class="btn-details"><i class="flaticon-right-arrow-1"></i> LEARN
+                            <div><h5>F/O  kabelinin hava yolu ilə çəkilməsi</h5></div>
+
+                            <a href="#" class="btn-details"><i class="flaticon-right-arrow-1"></i> LEARN
                                 MORE</a>
                         </div>
                     </div>
@@ -137,9 +134,9 @@
                         <span class="big-number">02</span>
                         <div class="icon-main"> <span class="flaticon-ui"></span></div>
                         <div class="content-box">
-                            <h5>Development</h5>
-                            <div>Our product design service lets you prototype, test and validate your ideas.</div>
-                            <a href="web-development.html" class="btn-details"><i class="flaticon-right-arrow-1"></i>
+                            <div><h5>F/O kabelinin  torpaq altından çəkilməsi</h5></div>
+
+                            <a href="#" class="btn-details"><i class="flaticon-right-arrow-1"></i>
                                 LEARN MORE</a>
                         </div>
                     </div>
@@ -149,20 +146,64 @@
                         <span class="big-number">03</span>
                         <div class="icon-main"><span class="flaticon-report"></span></div>
                         <div class="content-box">
-                            <h5>Data Analytics</h5>
-                            <div>Our product design service lets you prototype, test and validate your ideas.</div>
-                            <a href="it-services.html" class="btn-details"><i class="flaticon-right-arrow-1"></i> LEARN
+                           <div> <h5>F/O kabelinin binalar arası çəkilməsi</h5></div>
+
+                            <a href="#" class="btn-details"><i class="flaticon-right-arrow-1"></i> LEARN
                                 MORE</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                     <div class="serv-box-2 s2">
-                        <span class="big-number">04</span>
+                        <span class="big-number">03</span>
+                        <div class="icon-main"><span class="flaticon-report"></span></div>
+                        <div class="content-box">
+                            <div>                            <h5>Kamera və dəmir  dirəklərinin quraşdırılması </h5>
+                            </div>
+                            <a href="#" class="btn-details"><i class="flaticon-right-arrow-1"></i> LEARN
+                                MORE</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                    <div class="serv-box-2 s2">
+                        <span class="big-number">011</span>
+                        <div class="icon-main"><span class="flaticon-report"></span></div>
+                        <div class="content-box">
+                            <div><h5>KRQ  quyularının quraşdırılması</h5></div>
+
+                            <a href="#" class="btn-details"><i class="flaticon-right-arrow-1"></i> LEARN
+                                MORE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                    <div class="serv-box-2 s1">
+                        <span class="big-number">022</span>
+                        <div class="icon-main"><span class="flaticon-report"></span></div>
+                        <div class="content-box">
+                            <div><h5>Optik birləşdirici qolçaqlarin və optik sonlanma qutusunun quraşdırılması/qaynaq edilməsi</h5></div>
+
+                            <a href="#" class="btn-details"><i class="flaticon-right-arrow-1"></i> LEARN
+                                MORE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                    <div class="serv-box-2 s2">
+                        <span class="big-number">033</span>
                         <div class="icon-main"><span class="flaticon-shield"></span></div>
                         <div class="content-box">
-                            <h5>Cyber Security</h5>
-                            <div>Our product design service lets you prototype, test and validate your ideas.</div>
+                            <div><h5>Radarlarin çəkilməsi</h5></div>
+
                             <a href="it-services.html" class="btn-details"><i class="flaticon-right-arrow-1"></i> LEARN
                                 MORE</a>
                         </div>
@@ -173,48 +214,16 @@
     </section>
     <section class="pt-0 pb-290">
         <div class="container">
-            <div class="row mt--130">
-                <div class="col-md-6 col-sm-12 mb-4 mb-md-0">
-                    <div class="misc-box text-white misc-box-bg1">
-                        <div class="ot-counter">
-                            <div>
-                                <span class="num" data-to="15" data-time="2000">0</span>
-                                <span>+</span>
-                            </div>
-                        </div>
-                        <h5>Countries Worldwide</h5>
-                        <p>To succeed, every software solution must be deeply integrated into the existing tech
-                            environment..</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="misc-box misc-box-bg2">
-                        <div class="ot-counter">
-                            <div>
-                                <span class="num" data-to="23" data-time="2000">0</span>
-                                <span>k</span>
-                            </div>
-                        </div>
-                        <h5>Happy Customers</h5>
-                        <p>To succeed, every software solution must be deeply integrated into the existing tech
-                            environment..</p>
-                    </div>
-                </div>
-            </div>
+
             <div class="space-120"></div>
             <div class="row">
                 <div class="col-md-8 col-sm-8 mb-4 mb-sm-0">
                     <div class="ot-heading mb-0">
-                        <span>// our service</span>
-                        <h2 class="main-heading">Ustunlukler <br>statick</h2>
+                        <span>// Üstünlüklər</span>
+
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4 text-sm-right align-self-end">
-                    <div class="ot-button">
-                        <a href="it-services.html" class="octf-btn octf-btn-primary">all sevices</a>
-                    </div>
-                    <div class="space-10"></div>
-                </div>
+
             </div>
             <div class="space-55"></div>
             <div class="row">
@@ -223,8 +232,7 @@
                         <div class="icon-main"><span class="flaticon-code"></span></div>
                         <div class="content-box">
                             <h5>Web Development</h5>
-                            <p>We carry more than just good coding skills. Our experience makes us stand out from other
-                                web development.</p>
+
                         </div>
                     </div>
                 </div>
@@ -233,8 +241,7 @@
                         <div class="icon-main"><span class="flaticon-app"></span></div>
                         <div class="content-box">
                             <h5>Mobile Development</h5>
-                            <p>Create complex enterprise software, ensure reliable software integration, modernise your
-                                legacy system.</p>
+
                         </div>
                     </div>
                 </div>
@@ -243,8 +250,7 @@
                         <div class="icon-main"><span class="flaticon-monitor"></span></div>
                         <div class="content-box">
                             <h5>UI/UX Design</h5>
-                            <p>Build the product you need on time with an experienced team that uses a clear and
-                                effective design process.</p>
+
                         </div>
                     </div>
                 </div>
@@ -253,8 +259,7 @@
                         <div class="icon-main"><span class="flaticon-browser"></span></div>
                         <div class="content-box">
                             <h5>QA & Testing</h5>
-                            <p>Turn to our experts to perform comprehensive, multi-stage testing and auditing of your
-                                software.</p>
+
                         </div>
                     </div>
                 </div>
@@ -263,8 +268,7 @@
                         <div class="icon-main"><span class="flaticon-report-1"></span></div>
                         <div class="content-box">
                             <h5>IT Counsultancy</h5>
-                            <p>Trust our top minds to eliminate workflow pain points, implement new tech, and
-                                consolidate app portfolios.</p>
+
                         </div>
                     </div>
                 </div>
@@ -273,8 +277,7 @@
                         <div class="icon-main"><span class="flaticon-best"></span></div>
                         <div class="content-box">
                             <h5>Dedicated Team</h5>
-                            <p>Over the past decade, our customers succeeded by leveraging Intellectsoft’s process of
-                                building, motivating.</p>
+
                         </div>
                     </div>
                 </div>
@@ -289,12 +292,12 @@
                         <div class="row">
                             <div class="col-md-9 text-md-left text-center mb-4 mb-md-0">
                                 <div class="ot-heading">
-                                    <span>// Elaqe</span>
-                                    <h2 class="main-heading">Elaqe</h2>
+                                    <span>// Əlaqə</span>
+                                    <h2 class="main-heading">Ətraflı məlumat almaq üçün bizimlə əlaqə saxlayın.</h2>
                                 </div>
                             </div>
                             <div class="col-md-3 text-md-right text-center align-self-end">
-                                <a href="contact.html" class="octf-btn btn-border" role="button">contact us</a>
+                                <a href="contact.html" class="octf-btn btn-border" role="button">Əlaqə</a>
                             </div>
                         </div>
                     </div>
@@ -306,14 +309,11 @@
             <div class="row">
                 <div class="col-md-5">
                     <div class="ot-heading">
-                        <span>// latest case studies</span>
-                        <h2 class="main-heading">Mehsullar</h2>
+                        <span>// Məhsulllar</span>
+
                     </div>
                 </div>
-                <div class="col-md-7">
-                    <p class="mb-0">Software development outsourcing is just a tool to achieve business goals. But there
-                        is no way to get worthwhile results without cooperation and trust between a client company.</p>
-                </div>
+
             </div>
         </div>
         <div class="space-40"></div>
@@ -337,10 +337,7 @@
                     <div class="portfolio-info ">
                         <div class="portfolio-info-inner">
                             <h5><a href="portfolio-details-1.html">{{  $product->title }}</a></h5>
-                            <p class="portfolio-cates">
-                                <a href="#">Design</a><span>/</span>
-                                <a href="#">Development</a>
-                            </p>
+
                         </div>
                     </div>
                 </div>
@@ -349,9 +346,15 @@
 
         </div>
         <div class="row">
-            <div class="col-md-10"></div>
-            <div class="col-md-2 ">
-                <a class="" href="http://"> <b>Hamsina bax</b> <i class="fas fa-arrow-right"></i></a>
+
+            <div class="col-md-8"></div>
+
+            <div class="home-about-btn">
+                <div class="ot-button">
+                    <a href="about-us.html" class="btn-details"><i class="flaticon-right-arrow-1"></i> ƏTRAFLI MƏLUMAT</a>
+                    <div class="space-15"></div>
+                </div>
+            </div>
             </div>
         </div>
 
@@ -363,9 +366,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="ot-heading text-center text-white">
-                        <span>// TECHNOLOGY INDEX</span>
-                        <h2 class="main-heading">Galery <br>the Goal of Trusting Relationships</h2>
+                    <div class="ot-heading">
+                        <span>// Qalereya</span>
+
                     </div>
                 </div>
             </div>
@@ -380,7 +383,7 @@
 
                     <div class="projects-box" >
                         <div class="projects-thumbnail" >
-                            <a href="portfolio-details-1.html">
+                            <a href="portfolio-details-1.html" >
                                 <img src="{{ asset('image').'/'.$images->image }}"  alt="">
                                 <span ></span>
                             </a>
@@ -411,6 +414,18 @@
             </div> -->
 
         </div>
+        <div class="row">
+
+            <div class="col-md-8"></div>
+
+            <div class="home-about-btn">
+                <div class="ot-button">
+                    <a href="about-us.html" class="btn-details"><i class="flaticon-right-arrow-1"></i> ƏTRAFLI MƏLUMAT</a>
+                    <div class="space-15"></div>
+                </div>
+            </div>
+            </div>
+        </div>
     </section>
 
     <section>
@@ -418,8 +433,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="ot-heading text-center">
-                        <span>// our clients</span>
-                        <h2 class="main-heading">Partnyorlar <br>15+ Countries Worldwide</h2>
+                        <span>// Partnyorlar</span>
+                        <h2 class="main-heading"></h2>
                     </div>
                 </div>
             </div>

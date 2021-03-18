@@ -12,7 +12,7 @@ use App\Http\Controllers\LocalizationController;
 
 
 
-Route::get('/locale/{locale}',function($locale) {
+Route::get('/lang/{locale}',function($locale) {
     Session::put('locale',$locale);
     return redirect()->back();
 });

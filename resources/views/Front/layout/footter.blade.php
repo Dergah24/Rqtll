@@ -14,22 +14,25 @@
             <div class="col-md-4 col-sm-6">
                 <div class="contact-info box-style2 ft-contact-info">
                     <div class="box-icon"><i class="flaticon-world-globe"></i></div>
-                    <p>411 University St, Seattle, USA</p>
-                    <h6>Our Address</h6>
+                    <p>{{ $contact->address }}</p>
+                        <h6>Ünvan</h6>
+
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="contact-info box-style2 ft-contact-info">
                     <div class="box-icon"><i class="flaticon-envelope"></i></div>
-                    <p>contact@mail.net</p>
-                    <h6>Our Mailbox</h6>
+                    <p>{{ $contact->email }}</p>
+                    <h6>Email Adresi</h6>
+
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="contact-info box-style2 ft-contact-info">
                     <div class="box-icon"><i class="flaticon-phone-1"></i></div>
-                    <p>+1 -800-456-478-23</p>
-                    <h6>Our Phone</h6>
+                    <p>{{ $contact->tel1 }}</p>
+                    <h6>Telefon</h6>
+
                 </div>
             </div>
         </div>
@@ -38,21 +41,22 @@
             <div class="col-md-12 text-center">
                 <div class="footer-menu">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contacts</a></li>
+                        <li><a href="#">{{ __('static.home') }}</a></li>
+                        <li><a href="#">{{ __('static.haqimizda') }}</a></li>
+                        <li><a href="#">{{ __('static.xidmetler') }}</a></li>
+                        <li><a href="#">{{ __('static.mehsul') }}</a></li>
+                        <li><a href="#">{{ __('static.qalereya') }}</a></li>
+                        <li><a href="#">{{ __('static.elaqe') }}</a></li>
                     </ul>
                 </div>
                 <div class="space-20"></div>
-                <p class="copyright-text v2">Copyright © 2020 Engitech by ThemeModern. All Rights Reserved.</p>
+                <p class="copyright-text v2">Copyright © {{ date('Y') }} Bütün müəllif hüquqları qorunur</p>
                 <div class="space-26"></div>
                 <div class="ft-list-icon">
-                    <a class="twitter" href="twitter.com"><i class="fab fa-twitter"></i></a>
-                    <a class="facebook" href="facebook.com"><i class="fab fa-facebook-f"></i></a>
-                    <a class="linkedin" href="linkedin.com"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="instagram" href="instagram.com"><i class="fab fa-instagram"></i></a>
+                    <a class="twitter" href="{{ $contact->twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="facebook" href="{{ $contact->facebook }}" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="linkedin" href="{{ $contact->linkedin }}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="instagram" href="{{ $contact->insat }}" target="_blank"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
