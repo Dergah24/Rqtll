@@ -55,7 +55,7 @@
 
                                 <a href="/lang/az">Azərbaycan</a>
                                 <a href="/lang/en">English</a>
-                                <a href="/lang/ru">Pусский</a>
+
                             </div>
                         </div>
                     </div>

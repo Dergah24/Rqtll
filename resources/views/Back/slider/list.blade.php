@@ -8,6 +8,7 @@
             <div class="alert alert-success">{{ $message }}</div>
         @endif
             <a href="{{ route('slider.create') }}" class="btn btn-success "><i class="fas fa-plus"></i></a>
+            @isset($sliders)
             <table class="table">
                 <thead>
 
@@ -20,6 +21,9 @@
                   </tr>
                 </thead>
                 <tbody>
+
+
+
                     @foreach ($sliders as $slider)
                     <tr>
                         <th scope="row">{{ $loop->iteration }}</th>
@@ -28,11 +32,11 @@
                         <td> <img src="{{ asset( $slider->image ) }}" target = "_blank" style="width: 40px" alt=""> </td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic example">
-                               
+
                                     <div class="col-6">
                                         <a href="{{ route('slider.edit',$slider->id) }}" class="btn  btn-primary"><i class="fas fa-edit"></i></a>
                                     </div>
-                                   
+
                                     <div class="col-6">
                                         <form method="Post" action="{{ route('slider.destroy',$slider->id) }}">
                                             @csrf
@@ -40,14 +44,16 @@
                                             <button type="submit" class="btn  btn-danger"><i class="fas fa-trash-alt"></i></button>
                                         </form>
                                     </div>
-                              
-                               
+
+
                             </div>
                         </td>
                       </tr>
                     @endforeach
+
                 </tbody>
               </table>
+              @endisset
         </div>
     </div>
 @endsection

@@ -53,7 +53,7 @@ Contact Creat
                         <div class="form-group">
                             <div class="input-group input-group-icon">
                               <span class="input-group-addon">
-                                <span class="fas fa-phone-alt" aria-hidden="true"> </span>
+                                <span class="fas fa-phone-alt" aria-hidden="true"> </span>+994
                               </span>
                               <input type="text" class="form-control" placeholder="Phone Namber" name="tel1" value="{{  $contact->tel1 }}">
                             </div>
@@ -66,7 +66,7 @@ Contact Creat
                         <div class="form-group">
                             <div class="input-group input-group-icon">
                               <span class="input-group-addon">
-                                <span class="fas fa-phone-alt" aria-hidden="true"> </span>
+                                <span class="fas fa-phone-alt" aria-hidden="true"> </span>+994
                               </span>
                               <input type="text" class="form-control" placeholder="Phone namber" name="tel2" value="{{ $contact->tel2 }}">
                             </div>
@@ -79,7 +79,7 @@ Contact Creat
                         <div class="form-group">
                             <div class="input-group input-group-icon">
                               <span class="input-group-addon">
-                                <span class="fas fa-phone-alt" aria-hidden="true"> </span>
+                                <span class="fas fa-phone-alt" aria-hidden="true"> </span>+994
                               </span>
                               <input type="text" class="form-control" placeholder="Phone Namber" name="tel3" value="{{ $contact->tel3 }}">
                             </div>

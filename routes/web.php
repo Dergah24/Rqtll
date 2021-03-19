@@ -26,7 +26,7 @@ Route::get('/lang/{locale}',function($locale) {
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
+    return view('Back.slider.list');
 })->name('dashboard');
 
 

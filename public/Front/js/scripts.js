@@ -508,7 +508,7 @@ var swiper = new Swiper('.swiper-container', {
     },
     spaceBetween: 30,
     centeredSlides: true,
-    autoplay: {
+   autoplay: {
       delay: 6000,
       disableOnInteraction: false,
     },

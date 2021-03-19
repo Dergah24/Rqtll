@@ -121,7 +121,12 @@ class SliderController extends Controller
     {
 
         $slider = Slider::where('id',$id)->first();
-
+        if($request->image){
+            $fileName = Str::slug($request->title_az, '-').'.'.$request->image->extension();
+            $fileNamePath = 'uploads/'.$fileName;
+            $slider->image = $fileNamePath;
+            $request->image->move(public_path('uploads'), $fileName);
+       }
         $slider->title_az = $request->title_az;
         $slider->title_en = $request->title_en;
         $slider->title_ru = $request->title_ru;
@@ -136,12 +141,7 @@ class SliderController extends Controller
 
         $slider->link     = $request->link;
 
-        if($request->file()){
-             $fileName = $request->title_az.'.'.$request->image->extension();
-             $fileNamePath = 'uploads/'.$fileName;
-             $slider->image = $fileNamePath;
-             $request->image->move(public_path('uploads'), $fileName);
-        }
+
         $slider->save();
             return redirect()->route("slider.index")->with('success',"Slayder  Yenilendi");
     }

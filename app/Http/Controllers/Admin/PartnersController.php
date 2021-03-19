@@ -92,9 +92,18 @@ class PartnersController extends Controller
 
          $partner =  Partners::where('id',$id)->first();
 
+       if($request->title){
         $partner->title=$request->title;
+       }else{
+        $partner->title = time().'parnetner';
+       }
         if ($request->file()){
-           $name = $request->title.'.'.$request->image->extension();
+
+            if($request->title){
+                $name = $request->title.'.'.$request->image->extension();
+            }else{
+                $name = time().'.'.$request->image->extension();
+            }
 
            $request->image->move(public_path('image'),$name);
 

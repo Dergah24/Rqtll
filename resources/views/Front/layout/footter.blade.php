@@ -39,10 +39,10 @@
         <div class="space-65"></div>
         <div class="row">
             <div class="col-md-12 text-center">
-                <div class="footer-menu">
+                <div class="footer-menu ">
                     <ul>
                         <li><a href="#">{{ __('static.home') }}</a></li>
-                        <li><a href="#">{{ __('static.haqimizda') }}</a></li>
+                        <li><a href="#">{{ __('static.haqqimizda') }}</a></li>
                         <li><a href="#">{{ __('static.xidmetler') }}</a></li>
                         <li><a href="#">{{ __('static.mehsul') }}</a></li>
                         <li><a href="#">{{ __('static.qalereya') }}</a></li>

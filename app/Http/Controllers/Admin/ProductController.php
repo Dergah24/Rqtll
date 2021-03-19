@@ -46,7 +46,7 @@ class ProductController extends Controller
          $product = new Product();
 
 
-        if($request->hasFile('image')){
+        if($request->image){
             $fileName = $request->title_az.time().'.'.$request->image->extension();
             $fileNamePath = 'uploads/'.$fileName;
             $product->image=$fileNamePath;
@@ -103,8 +103,8 @@ class ProductController extends Controller
     public function update(ProductUpdateRequest $request, $id)
     {
         $product =  Product::whereId($id)->first();
-        if($request->hasFile('image')){
-            $fileName = $request->title_az.time().'.'.$request->image->extension();
+        if($request->image){
+            $fileName = Str::slug($product->title_az, '-').'.'.$request->image->extension();
             $fileNamePath = 'uploads/'.$fileName;
             $product->image=$fileNamePath;
             $request->image->move(public_path('uploads'), $fileName);

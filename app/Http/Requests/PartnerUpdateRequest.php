@@ -24,8 +24,8 @@ class PartnerUpdateRequest extends FormRequest
     public function rules()
     {
         return [
-        'title' =>'required|min:3',
-           'image' => "mimes:png"
+
+           'image' => "mimes:png,svg,png"
         ];
     }
 

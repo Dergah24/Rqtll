@@ -27,7 +27,7 @@ class ProductUpdateRequest extends FormRequest
             'title_az' =>'required|min:3',
             'title_ru' =>'required|min:3',
             'title_en' =>'required|min:3',
-            'image' => 'mimes:jpeg,jpg|max:2000'
+            'image' => 'mimes:jpeg,jpg,png|max:2000'
         ];
     }
 
